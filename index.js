@@ -6,7 +6,7 @@ import http, { request } from "http"
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 let server = http.createServer(function(request, response) {
-  let indexPage = fs.readFileSync(path.join(__dirname, "index.html"))
+  let indexPage = fs.readFileSync(path.join(__dirname, "obrat.html"))
  
   if (request.url == "/") {
     response.writeHead(200, { "Content-Type": "text/html" })
