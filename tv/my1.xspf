@@ -1,0 +1,1267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
+	<title>Плейлист</title>
+	<trackList>
+		<track>
+			<location>https://streaming.thestream.cyou/live/44.m3u8</location>
+			<title>Дом Кино</title>
+			<duration>28000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>0</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://streaming.televizor-24-tochka.ru/live/618.m3u8</location>
+			<title>МузТВ</title>
+			<duration>28000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>1</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://streaming.thestream.cyou/live/213.m3u8</location>
+			<title>НТВ Мир</title>
+			<duration>28000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>2</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://streaming.thestream.cyou/live/210.m3u8</location>
+			<title>Первый канал Европа</title>
+			<duration>28000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>3</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://streaming.thestream.cyou/live/43.m3u8</location>
+			<title>Победа</title>
+			<duration>28000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>4</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://streaming.televizor-24-tochka.ru/live/19.m3u8</location>
+			<title>Пятница!</title>
+			<duration>28000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>5</vlc:id>
+				<vlc:option>http-referrer=https://televizor24tochka.ru/</vlc:option>
+				<vlc:option>http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36</vlc:option>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://streaming.televizor-24-tochka.ru/live/14.m3u8</location>
+			<title>Рен ТВ</title>
+			<duration>28000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>6</vlc:id>
+				<vlc:option>http-referrer=https://televizor24tochka.ru/</vlc:option>
+				<vlc:option>http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36</vlc:option>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://streaming.televizor-24-tochka.ru/live/5.m3u8</location>
+			<title>Россия 1</title>
+			<duration>28000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>7</vlc:id>
+				<vlc:option>http-referrer=https://televizor24tochka.ru/</vlc:option>
+				<vlc:option>http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36</vlc:option>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://streaming.televizor-24-tochka.ru/live/10.m3u8</location>
+			<title>Россия 24</title>
+			<duration>28000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>8</vlc:id>
+				<vlc:option>http-referrer=https://televizor24tochka.ru/</vlc:option>
+				<vlc:option>http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36</vlc:option>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://streaming.televizor-24-tochka.ru/live/30.m3u8</location>
+			<title>Россия 24</title>
+			<duration>28000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>9</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://streaming.televizor-24-tochka.ru/live/9.m3u8</location>
+			<title>Россия К</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>10</vlc:id>
+				<vlc:option>http-referrer=https://televizor24tochka.ru/</vlc:option>
+				<vlc:option>http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36</vlc:option>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://streaming.televizor-24-tochka.ru/live/211.m3u8</location>
+			<title>Россия-РТР</title>
+			<duration>28000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>11</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd</location>
+			<title>Первй канал HD</title>
+			<duration>43200000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>12</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia1-hd/index.m3u8</location>
+			<title>Russia1 HD +0</title>
+			<duration>34560</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>13</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://cdn.ntv.ru/ntv0/playlist.m3u8</location>
+			<title>НТВ HD</title>
+			<duration>24000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>14</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://31.131.141.195:8000/play/1090/index.m3u8</location>
+			<title>09 ОТР</title>
+			<duration>11520</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>15</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221_2.smil/playlist.m3u8</location>
+			<title>ТВ Центр</title>
+			<duration>18000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>16</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8</location>
+			<title>Звезда HD</title>
+			<duration>36000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>17</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://31.131.141.195:8000/play/a003/index.m3u8</location>
+			<title>18 Мир</title>
+			<duration>11520</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>18</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://russian-livews.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd/playlist.m3u8</location>
+			<title>CGTN Русский HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>19</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://brics.bonus-tv.ru/cdn/brics/russian/tracks-v1a1/mono.m3u8</location>
+			<title>TV BRICS</title>
+			<duration>39188</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>20</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://live2.mediacdn.ru/sr1/tro/playlist.m3u8</location>
+			<title>БелРос</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>21</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://live-3.otcnet.ru/congresstv/index.m3u8</location>
+			<title>CongressTV</title>
+			<duration>20000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>22</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/index.m3u8</location>
+			<title>Красная линия</title>
+			<duration>19920</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>23</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://194.158.222.36:6102</location>
+			<title>ОНТ</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>24</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://serv25.vintera.tv/1pnk/prnk/chunks.m3u8</location>
+			<title>ПРНК HD</title>
+			<duration>57000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>25</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8</location>
+			<title>Беларусь 24 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>26</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://qcpdqumitwf.a.trbcdn.net/livemastersrt/pr4mw_lvie-vmesterf-srt.smil/playlist.m3u8</location>
+			<title>ВМЕСТЕ:РФ HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>27</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://s20441.cdn.ngenix.net/hls/CH_R49_MGTK/variant.m3u8</location>
+			<title>Известия HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>28</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8</location>
+			<title>Мир 24 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>29</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://edge50.dc.beltelecom.by/ngtrk/_definst_/smil:informacionnyy.smil/chunklist_w868240704_b5160000_sleng.m3u8</location>
+			<title>Первый информационный HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>30</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://tv-streaming.bsh.ru:21938/probusiness/probusiness.stream/chunklist.m3u8</location>
+			<title>Про бизнес</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>31</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://online.video.rbc.ru/online/rbctvhd_1080p/index.m3u8</location>
+			<title>РБК HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>32</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-hd/720p.m3u8</location>
+			<title>Россия 24 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>33</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://player.smotrim.ru/iframe/stream/live_id/985d5c7b-9727-4942-a4ba-a6e852caf0c1</location>
+			<title>Соловьев.Live HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>34</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://tass-hls.servicecdn.ru/httpstreamer/tass-loop-main.stream/playlist.m3u8</location>
+			<title>ТАСС</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>35</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://158.101.222.193:88/georgia_play.php?id=viasatsport</location>
+			<title>Viju+ sport</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>36</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8</location>
+			<title>Астрахань Спорт</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>37</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5/playlist.m3u8</location>
+			<title>Беларусь 5 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>38</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://cdn.universmotri.ru/live/hq.sdp/playlist.m3u8</location>
+			<title>UNIVER</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>39</vlc:id>
+				<vlc:option>http-user-agent=&quot;#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer&quot;</vlc:option>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream8.cinerama.uz/1429/tracks-v1a1/mono.m3u8</location>
+			<title>Вопросы и ответы</title>
+			<duration>24000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>40</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream8.cinerama.uz/1250/tracks-v1a1/mono.m3u8</location>
+			<title>Живая Планета</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>41</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://retj.educom.ru/mosobrtv/tv1/index.m3u8</location>
+			<title>Мособр TV HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>42</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://cdn-01.bonus-tv.ru/prosveschenie_edge/tracks-v1a1/mono.m3u8</location>
+			<title>Просвещение</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>43</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://31.210.208.171:8080/ani/index.m3u8?token=+W2MSER</location>
+			<title>Ani</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>44</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream8.cinerama.uz/1271/tracks-v1a1/mono.m3u8</location>
+			<title>Duck TV</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>45</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://158.160.149.81:8080/269/index.m3u8</location>
+			<title>JimJam</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>46</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://cqw2lystveu.a.trbcdn.net/livemaster/7ak8t_live-hv25n82a0l8.smil/playlist.m3u8</location>
+			<title>RADIOKIDS.FM</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>47</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://45.145.32.13:20440/tiji/index.m3u8?token=test</location>
+			<title>TiJi</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>48</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://188.225.31.197/bpk-tv/000000049/tve/index.m3u8</location>
+			<title>Детский мир</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>49</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream8.cinerama.uz/1406/tracks-v1a1/mono.m3u8</location>
+			<title>KapitanFantastikaHD</title>
+			<duration>24000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>50</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://tv.mediacdn.ru/live/solntse/playlist.m3u8</location>
+			<title>Солнце</title>
+			<duration>36000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>51</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://edge50.dc.beltelecom.by/ngtrk/_definst_/smil:belarus3.smil/chunklist_w1684528521_b5160000_sleng.m3u8</location>
+			<title>Беларусь 3 HD</title>
+			<duration>90001</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>52</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://vgtrkregion-reg.cdnvideo.ru/vgtrk/4/kultura-hd/index.m3u8</location>
+			<title>Россия Культура HD +4</title>
+			<duration>36000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>53</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://janya-digimix.akamaized.net/vglive-sk-955415/russia/ngrp:angelrussia_all/playlist.m3u8</location>
+			<title>Angel TV</title>
+			<duration>28800</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>54</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://tvhope.cdnvideo.ru/tvhope-pull/tvhope_1/tracks-v1a1/mono.m3u8?hls_proxy_host=5edf215ae950326c87f8788991c1ffc7</location>
+			<title>Надежда HD</title>
+			<duration>18000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>55</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://bl.rutube.ru/livestream/9ae8e8a6dc58bdad66190475f9872ecd/index.m3u8?s=U_og5iHG6xVp0V3KXYMB0g&amp;e=2070623479&amp;scheme=https</location>
+			<title>RUTUBE TV</title>
+			<duration>48000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>56</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://edge50.dc.beltelecom.by/ngtrk/smil:belarus2.smil/chunklist_b5160000_sleng.m3u8</location>
+			<title>Беларусь 2 HD</title>
+			<duration>90000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>57</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://serv25.vintera.tv:8081/kaleidoscop/kaleidoscop_sd/playlist.m3u8</location>
+			<title>Калейдоскоп ТВ</title>
+			<duration>24000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>58</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://188.225.31.197/bpk-tv/000004585/tve/index.m3u8</location>
+			<title>Ключ</title>
+			<duration>99840</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>59</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://origin5.mediacdn.ru/live/prodvizhenie_new/index.m3u8</location>
+			<title>Продвижение</title>
+			<duration>30000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>60</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://vod.tuva.ru/friday/index.m3u8</location>
+			<title>16 а&#159;б&#143;б&#130;аНаИбаА</title>
+			<duration>22400</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>61</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://tvoetv.space:8080/tvoetv/index.m3u8</location>
+			<title>Твоё ТВ HD</title>
+			<duration>30000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>62</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://bl.rutube.ru/livestream/546602986e6a424d74d594876ddb3f04/index.m3u8?s=M9H6z-O74nqbdC30HqutIw&amp;e=2070623480&amp;scheme=https</location>
+			<title>ТНТ HD</title>
+			<duration>48000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>63</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://bl.rutube.ru/livestream/c801a7087e29a097192d74c270fbc6c1/index.m3u8?s=zhnm9INH7ysOhS2LQStm2A&amp;e=2070623480&amp;scheme=https</location>
+			<title>ТНТ4 HD</title>
+			<duration>600000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>64</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://193.25.8.59:8000/rusong</location>
+			<title>Bridge Русский хит</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>65</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://31.210.208.171:8080/bridge_shlyager/index.m3u8?token=+W2MSER</location>
+			<title>Bridge Шлягер</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>66</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://dancehits80.denvs.ru:8080/index.m3u8</location>
+			<title>DanceHits80</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>67</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://cdn-01.bonus-tv.ru/tntmusic/playlist.m3u8</location>
+			<title>FON music</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>68</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8</location>
+			<title>Retro Music</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>69</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://5.188.159.128:8070/rutv/index.m3u8</location>
+			<title>RU TV</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>70</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://livetv.mylifeisgood.net.ru/channels/muztvhd.m3u8</location>
+			<title>Муз ТВ</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>71</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://31.210.208.171:8080/o2/index.m3u8?token=+W2MSER</location>
+			<title>О!2</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>72</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://188.225.31.197/bpk-tv/000000213/tve/index.m3u8</location>
+			<title>.red</title>
+			<duration>14400000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>73</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://188.225.31.197/bpk-tv/000000134/tve/index.m3u8</location>
+			<title>.sci-fi</title>
+			<duration>14400000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>74</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://catchup.videoline.ru/cinema/playlist.m3u8</location>
+			<title>Cinema</title>
+			<duration>21000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>75</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://sirius.greenhosting.ru/Kino24Ru/video.m3u8</location>
+			<title>Kino 24</title>
+			<duration>24000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>76</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://livetv.mylifeisgood.net.ru/channels/strvf.m3u8</location>
+			<title>START World HD</title>
+			<duration>48000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>77</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://188.225.31.197/bpk-tv/000003747/tve/index.m3u8</location>
+			<title>Viju TV1000</title>
+			<duration>14403840</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>78</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://176.118.197.101/Evrokino/index.m3u8</location>
+			<title>Еврокино</title>
+			<duration>24000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>79</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://vod.tuva.ru/kinotv/tracks-v1a1/mono.m3u8</location>
+			<title>Кино ТВ</title>
+			<duration>26880</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>80</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://188.225.31.197/bpk-tv/000003871/tve/index.m3u8</location>
+			<title>Киноман</title>
+			<duration>103680</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>81</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://193.25.8.59:8000/nst</location>
+			<title>НСТ</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>82</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://176.118.197.101/Retro/index.m3u8</location>
+			<title>Ретро</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>83</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://188.225.31.197/bpk-tv/000008135/tve/index.m3u8</location>
+			<title>Сапфир</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>84</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://158.101.222.193:88/georgia_play.php?id=tv1000rukino</location>
+			<title>Viju TV1000 русское</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>85</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream8.cinerama.uz/1054/tracks-v1a1/mono.m3u8</location>
+			<title>Дом Кино</title>
+			<duration>72000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>86</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://213.172.73.132:8081/nimble_live/kino_1_int/playlist.m3u8</location>
+			<title>Кино 1 Int.</title>
+			<duration>24000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>87</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://176.118.197.101/Komediya/index.m3u8</location>
+			<title>Комедия</title>
+			<duration>20000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>88</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://185.164.82.18:9010/ykMHqK_Fox</location>
+			<title>Мосфильм. Золотая коллекция</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>89</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://catchup.videoline.ru/asvtv/index.m3u8</location>
+			<title>Patriot</title>
+			<duration>21600</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>90</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://vod.tuva.ru/rusroman/index.m3u8</location>
+			<title>Русский роман</title>
+			<duration>24960</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>91</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://fl1004.bozztv.com/ushba32/tracks-v1a1/mono.m3u8</location>
+			<title>LAV-KINO</title>
+			<duration>32299</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>92</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://sirius.greenhosting.ru/Pro100tvRu/video.m3u8</location>
+			<title>Pro100</title>
+			<duration>24000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>93</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://fl1001.bozztv.com/ushba-rvision/tracks-v1a1/mono.m3u8</location>
+			<title>Retrovision</title>
+			<duration>20480</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>94</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://fl1001.bozztv.com/ushba-rvisionclassic/tracks-v1a1/mono.m3u8</location>
+			<title>Retrovision Classic</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>95</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://fl1001.bozztv.com/ushba-rvisionmotor/tracks-v1a1/mono.m3u8</location>
+			<title>Retrovision Motor</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>96</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://fl1001.bozztv.com/ushba-rvisionmovies/tracks-v1a1/mono.m3u8</location>
+			<title>Retrovision Movies</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>97</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://fl1001.bozztv.com/ushba-rvisionkinopanorama/tracks-v1a1/mono.m3u8</location>
+			<title>Retrovision Кинопанорама</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>98</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://fl1001.bozztv.com/ushba4/tracks-v1a1/mono.m3u8</location>
+			<title>Star Media</title>
+			<duration>24520</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>99</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/tracks-v5a1/mono.m3u8</location>
+			<title>Смотрим (Кино и сериалы)</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>100</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://5.188.159.128:8070/DiscoveryChannel/index.m3u8</location>
+			<title>Discovery Channel HD</title>
+			<duration>24000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>101</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://a3569457567-s70378.cdn.ngenix.net/galaxy/1/index.m3u8</location>
+			<title>galaxy</title>
+			<duration>36000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>102</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream8.cinerama.uz/1416/tracks-v1a1/mono.m3u8</location>
+			<title>Insight TV HD</title>
+			<duration>24000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>103</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream8.cinerama.uz/1042/tracks-v1a1/mono.m3u8</location>
+			<title> Nat Geo Wild</title>
+			<duration>72000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>104</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream8.cinerama.uz/1041/tracks-v1a1/mono.m3u8</location>
+			<title>National Geographic</title>
+			<duration>72000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>105</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://86.57.209.210/Ocean/index.m3u8</location>
+			<title>Ocean TV</title>
+			<duration>20440</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>106</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://a3569457567-s70378.cdn.ngenix.net/rtg_hd/1/index.m3u8</location>
+			<title>RTG_HD</title>
+			<duration>36000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>107</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://livetv.mylifeisgood.net.ru/channels/terra.m3u8</location>
+			<title>National Geographic</title>
+			<duration>28808000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>108</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://rt-doc.rttv.com/dvr/rtdru/rtdru1080.m3u8</location>
+			<title>RTД HD</title>
+			<duration>21600000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>109</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream8.cinerama.uz/1404/tracks-v1a1/mono.m3u8</location>
+			<title>В мире животных</title>
+			<duration>24000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>110</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://vod.tuva.ru/myplanet/index.m3u8</location>
+			<title>MY PLANET</title>
+			<duration>21120</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>111</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://vod.tuva.ru/nauka2/index.m3u8</location>
+			<title>Наука</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>112</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://cdn.ntv.ru/unknown_russia/tracks-v1a1/playlist.m3u8</location>
+			<title>UnknownRussia-HD-B</title>
+			<duration>24000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>113</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://v4.proofix.ru/0mir/index.m3u8</location>
+			<title>Открытый мир</title>
+			<duration>21240</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>114</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream8.cinerama.uz/1415/tracks-v1a1/mono.m3u8</location>
+			<title>Первый космический</title>
+			<duration>24000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>115</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://hls.tva.cdnvideo.ru/tva/tvahd.sdp/playlist.m3u8</location>
+			<title>РЖД HD</title>
+			<duration>40000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>116</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream8.cinerama.uz/1037/tracks-v1a1/mono.m3u8</location>
+			<title>Техно 24</title>
+			<duration>72000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>117</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream8.cinerama.uz/1430/tracks-v1a1/mono.m3u8</location>
+			<title>АВТО 24</title>
+			<duration>24000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>118</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://45.11.139.43:8555/doctor/index.m3u8</location>
+			<title>Доктор</title>
+			<duration>11600</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>119</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://185.57.68.33/40/index.m3u8</location>
+			<title>Загородная Жизнь</title>
+			<duration>23960</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>120</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://livetv.mylifeisgood.net.ru/channels/zagorodint.m3u8</location>
+			<title>Загородный Int. HD</title>
+			<duration>48000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>121</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://cdn2.ntv.ru/th_style/tracks-v1a1/mono.m3u8</location>
+			<title>НТВ Стиль</title>
+			<duration>24000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>122</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://158.101.222.193:88/georgia_play.php?id=oruzhie</location>
+			<title>Оружие</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>123</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream8.cinerama.uz/1038/tracks-v1a1/mono.m3u8</location>
+			<title>Охота и рыбалка</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>124</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://bl.rutube.ru/livestream/1da5d92af8c55b16241f1eb12a27f00c/index.m3u8?s=QzqPo5cuxaeOJDvPy-nBvg&amp;e=2070623488&amp;scheme=https</location>
+			<title> Охотник и рыболов</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>125</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream8.cinerama.uz/1413/tracks-v1a1/mono.m3u8</location>
+			<title> Охотник и рыболов HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>126</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream8.cinerama.uz/1031/tracks-v1a1/mono.m3u8</location>
+			<title>Точка Отрыва</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>127</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://85.234.33.63/stream/c11.m3u8</location>
+			<title>Наш дом</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>128</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream8.cinerama.uz/1424/tracks-v1a1/mono.m3u8</location>
+			<title>Nasha_Sibir</title>
+			<duration>16000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>129</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+	</trackList>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:item tid="0"/>
+		<vlc:item tid="1"/>
+		<vlc:item tid="2"/>
+		<vlc:item tid="3"/>
+		<vlc:item tid="4"/>
+		<vlc:item tid="5"/>
+		<vlc:item tid="6"/>
+		<vlc:item tid="7"/>
+		<vlc:item tid="8"/>
+		<vlc:item tid="9"/>
+		<vlc:item tid="10"/>
+		<vlc:item tid="11"/>
+		<vlc:item tid="12"/>
+		<vlc:item tid="13"/>
+		<vlc:item tid="14"/>
+		<vlc:item tid="15"/>
+		<vlc:item tid="16"/>
+		<vlc:item tid="17"/>
+		<vlc:item tid="18"/>
+		<vlc:item tid="19"/>
+		<vlc:item tid="20"/>
+		<vlc:item tid="21"/>
+		<vlc:item tid="22"/>
+		<vlc:item tid="23"/>
+		<vlc:item tid="24"/>
+		<vlc:item tid="25"/>
+		<vlc:item tid="26"/>
+		<vlc:item tid="27"/>
+		<vlc:item tid="28"/>
+		<vlc:item tid="29"/>
+		<vlc:item tid="30"/>
+		<vlc:item tid="31"/>
+		<vlc:item tid="32"/>
+		<vlc:item tid="33"/>
+		<vlc:item tid="34"/>
+		<vlc:item tid="35"/>
+		<vlc:item tid="36"/>
+		<vlc:item tid="37"/>
+		<vlc:item tid="38"/>
+		<vlc:item tid="39"/>
+		<vlc:item tid="40"/>
+		<vlc:item tid="41"/>
+		<vlc:item tid="42"/>
+		<vlc:item tid="43"/>
+		<vlc:item tid="44"/>
+		<vlc:item tid="45"/>
+		<vlc:item tid="46"/>
+		<vlc:item tid="47"/>
+		<vlc:item tid="48"/>
+		<vlc:item tid="49"/>
+		<vlc:item tid="50"/>
+		<vlc:item tid="51"/>
+		<vlc:item tid="52"/>
+		<vlc:item tid="53"/>
+		<vlc:item tid="54"/>
+		<vlc:item tid="55"/>
+		<vlc:item tid="56"/>
+		<vlc:item tid="57"/>
+		<vlc:item tid="58"/>
+		<vlc:item tid="59"/>
+		<vlc:item tid="60"/>
+		<vlc:item tid="61"/>
+		<vlc:item tid="62"/>
+		<vlc:item tid="63"/>
+		<vlc:item tid="64"/>
+		<vlc:item tid="65"/>
+		<vlc:item tid="66"/>
+		<vlc:item tid="67"/>
+		<vlc:item tid="68"/>
+		<vlc:item tid="69"/>
+		<vlc:item tid="70"/>
+		<vlc:item tid="71"/>
+		<vlc:item tid="72"/>
+		<vlc:item tid="73"/>
+		<vlc:item tid="74"/>
+		<vlc:item tid="75"/>
+		<vlc:item tid="76"/>
+		<vlc:item tid="77"/>
+		<vlc:item tid="78"/>
+		<vlc:item tid="79"/>
+		<vlc:item tid="80"/>
+		<vlc:item tid="81"/>
+		<vlc:item tid="82"/>
+		<vlc:item tid="83"/>
+		<vlc:item tid="84"/>
+		<vlc:item tid="85"/>
+		<vlc:item tid="86"/>
+		<vlc:item tid="87"/>
+		<vlc:item tid="88"/>
+		<vlc:item tid="89"/>
+		<vlc:item tid="90"/>
+		<vlc:item tid="91"/>
+		<vlc:item tid="92"/>
+		<vlc:item tid="93"/>
+		<vlc:item tid="94"/>
+		<vlc:item tid="95"/>
+		<vlc:item tid="96"/>
+		<vlc:item tid="97"/>
+		<vlc:item tid="98"/>
+		<vlc:item tid="99"/>
+		<vlc:item tid="100"/>
+		<vlc:item tid="101"/>
+		<vlc:item tid="102"/>
+		<vlc:item tid="103"/>
+		<vlc:item tid="104"/>
+		<vlc:item tid="105"/>
+		<vlc:item tid="106"/>
+		<vlc:item tid="107"/>
+		<vlc:item tid="108"/>
+		<vlc:item tid="109"/>
+		<vlc:item tid="110"/>
+		<vlc:item tid="111"/>
+		<vlc:item tid="112"/>
+		<vlc:item tid="113"/>
+		<vlc:item tid="114"/>
+		<vlc:item tid="115"/>
+		<vlc:item tid="116"/>
+		<vlc:item tid="117"/>
+		<vlc:item tid="118"/>
+		<vlc:item tid="119"/>
+		<vlc:item tid="120"/>
+		<vlc:item tid="121"/>
+		<vlc:item tid="122"/>
+		<vlc:item tid="123"/>
+		<vlc:item tid="124"/>
+		<vlc:item tid="125"/>
+		<vlc:item tid="126"/>
+		<vlc:item tid="127"/>
+		<vlc:item tid="128"/>
+		<vlc:item tid="129"/>
+	</extension>
+</playlist>
