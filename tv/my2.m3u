@@ -2,7 +2,11 @@
 #PLAYLIST:experimental
 
 #EXTM3U
-#EXTINF:-1 tvg-id="UnknownRussia.ru@SD",Неизвестная Россия (1080p)
+#EXTINF:-1 tvg-id="UnknownRussia.ru@SD"  group-title="обн.04.04.26 22:47"  ,ОБН.04.04.26 22:47 (1080p)
+https://cdn.ntv.ru/unknown_russia/playlist.m3u8
+
+
+#EXTINF:-1 tvg-id="UnknownRussia.ru@SD"  group-title="Общественные"  ,Неизвестная Россия (1080p)
 https://cdn.ntv.ru/unknown_russia/playlist.m3u8
 #EXTINF:-1 tvg-id="NTV.ru@Plus1",  group-title="Общественные"  ,НТВ +1 (576p)
 https://cdn.ntv.ru/ntv1/playlist.m3u8
