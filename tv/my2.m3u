@@ -124,7 +124,7 @@ https://streaming.thestream.cyou/live/213.m3u8
 http://31.131.141.195:8000/play/1050/index.m3u8
 #EXTINF:-1 tvg-id="piaty-int" tvg-logo="https://iptvx.one/picons/piaty-int.png" group-title="Общественные" ,Пятый канал Int.
 
-#EXTINF:-1 tvg-id="Channel5.ru@SD" group-title="Общественные" ,5 Канал
+#EXTINF:-1 tvg-id="piaty-int" tvg-id="Channel5.ru@SD" group-title="Общественные" ,5 Канал
 #EXTVLCOPT:http-referrer=https://televizor24tochka.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
 https://streaming.televizor-24-tochka.ru/live/8.m3u8
@@ -135,7 +135,7 @@ https://streaming.televizor-24-tochka.ru/live/8.m3u8
 https://streaming.televizor-24-tochka.ru/live/13.m3u8
 #EXTINF:-1 tvg-id="tvcentr" tvg-logo="https://iptvx.one/picons/tvcentr.png" group-title="Общественные" ,ТВ Центр
 http://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221_2.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://iptvx.one/picons/18.png" group-title="Общественные" ,Рен ТВ beetv
+#EXTINF:-1 tvg-logo="https://iptvx.one/picons/18.png" group-title="Общественные" ,Рен ТВ Int beetv
 https://ucdn.beetv.kz/bpk-tv/000002472/tve/index.m3u8 
 #EXTINF:-1 tvg-id="rentv" tvg-logo="https://iptvx.one/picons/18.png" group-title="Общественные" ,Рен ТВ
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
