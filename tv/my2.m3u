@@ -31,109 +31,69 @@ https://cdn.ntv.ru/th_hit/playlist.m3u8
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-04-srt.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="360News.ru@SD",360° Новости (1080p)
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-03-srt.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="FonMusic.ru@SD",FON Music (1080p)
+#EXTINF:-1 tvg-id="FonMusic.ru@SD" group-title="Музыкальные" ,FON Music (1080p)
 https://tntm.mediacdn.ru/cdn/tntmusic/playlist.m3u8
-#EXTINF:-1 tvg-id="RTRPlaneta.ru@Europe",Planeta-RTR
+#EXTINF:-1 tvg-id="RTRPlaneta.ru@Europe" group-title="Общественные" ,Planeta-RTR
 https://player.smotrim.ru/iframe/stream/live_id/1525504b-449d-432d-ab5d-1f11081f8603
-#EXTINF:-1 tvg-id="RTRPlaneta.ru@USA" group-title="Общественные"  ,Planeta-RTR
+#EXTINF:-1 tvg-id="RTRPlaneta.ru@USA" group-title="Общественные" ,Planeta-RTR
 https://player.smotrim.ru/iframe/stream/live_id/cf22fa5c-e21a-433e-8317-7e8dd3150d6a
-#EXTINF:-1 tvg-id="Arktika24.ru@SD" group-title="Общественные" ,Арктика 24 (Архангельск) (1080p)
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/arhangelsk/arktika24-hd/index.m3u8
-#EXTINF:-1 tvg-id="Bashkortostan24.ru@SD" group-title="Общественные" ,Башкортостан 24 (1080p)
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/ufa/bashkortostan24-hd/index.m3u8
 #EXTINF:-1 tvg-id="BigAsia.ru@SD" group-title="Общественные" ,Большая Азия (720p)
 https://live-bigasia.cdnvideo.ru/bigasia/bigasia.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="VestiFM.ru@HD" group-title="Общественные" ,Вести ФМ
+#EXTINF:-1 tvg-id="VestiFM.ru@HD" group-title="Общественные" ,Радио Вести ФМ
 https://player.smotrim.ru/iframe/stream/live_id/0487fd79-60e6-4333-a545-909d6e015173
-#EXTINF:-1 tvg-id="VmesteRF.ru@SD",Вместе РФ
+#EXTINF:-1 tvg-id="VmesteRF.ru@SD" group-title="Общественные" ,Вместе РФ
 https://qcpdqumitwf.a.trbcdn.net/livemastersrt/pr4mw_lvie-vmesterf-srt.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="Volgograd24.ru@SD",Волгоград 24 (1080p)
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/volgograd/volgograd24-hd/index.m3u8
-#EXTINF:-1 tvg-id="Vostok24.ru@SD",Восток 24 (Владивосток) (1080p)
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/vladivostok/vostok24-hd/index.m3u8
-#EXTINF:-1 tvg-id="DumaTV.ru@SD",Дума ТВ (1080p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
-https://dumatv.iptv2022.com/playlist.m3u8
-#EXTINF:-1 tvg-id="Zapad24.ru@SD",Запад 24 (Калининград) (1080p)
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/kaliningrad/zapad24-hd/index.m3u8
-#EXTINF:-1 tvg-id="Kavkaz24.ru@SD",Кавказ 24 (Ставрополь) (576p)
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/stavropol/kavkaz24-hd/index.m3u8
-#EXTINF:-1 tvg-id="LenTV24.ru@SD",ЛенТВ24
+#EXTINF:-1 tvg-id="LenTV24.ru@SD" group-title="Общественные" ,ЛенТВ24
 https://player.smotrim.ru/iframe/stream/live_id/3e95d201-f87d-4ac1-8897-db2c66bb9657
-#EXTINF:-1 tvg-id="Moskva24.ru@SD",Москва 24
+#EXTINF:-1 tvg-id="Moskva24.ru@SD" group-title="Общественные" ,Москва 24
 https://player.smotrim.ru/iframe/stream/live_id/efab3cbe-a29c-45f0-9596-5cb4f1ce7fbe
-#EXTINF:-1 tvg-id="NizhniyNovgorod24.ru@SD",Нижний Новгород 24 (1080p)
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/nigniynovgorod/nigniynovgorod24-hd/index.m3u8
-#EXTINF:-1 tvg-id="OTVPrim.ru@SD",ОТВ Приморье
 https://jz2lo90hnpy.a.trbcdn.net/livemaster/yo8gr_live-5gorrrfpouq.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="Russia1.ru@SD", group-title="Общественные" ,Россия 1 (1080p)
+#EXTINF:-1 tvg-id="Russia1.ru@SD" group-title="Общественные" ,Россия 1 (1080p)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia1-hd/index.m3u8
-#EXTINF:-1 tvg-id="Russia1.ru@SD", group-title="Общественные" ,Россия 1 (+1) (1080p)
+#EXTINF:-1 tvg-id="Russia1.ru@SD" group-title="Общественные" ,Россия 1 (+1) (1080p)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/1/russia1-hd/index.m3u8
-#EXTINF:-1 tvg-id="Russia1.ru@SD", group-title="Общественные" ,Россия 1 (+2) (1080p)
+#EXTINF:-1 tvg-id="Russia1.ru@SD" group-title="Общественные" ,Россия 1 (+2) (1080p)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/2/russia1-hd/index.m3u8
-#EXTINF:-1 tvg-id="Russia1.ru@SD", group-title="Общественные" ,Россия 1 (+3) (1080p)
+#EXTINF:-1 tvg-id="Russia1.ru@SD" group-title="Общественные" ,Россия 1 (+3) (1080p)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/3/russia1-hd/index.m3u8
-#EXTINF:-1 tvg-id="Russia1.ru@SD", group-title="Общественные" ,Россия 1 (+4) (1080p)
+#EXTINF:-1 tvg-id="Russia1.ru@SD" group-title="Общественные" ,Россия 1 (+4) (1080p)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/4/russia1-hd/index.m3u8
-#EXTINF:-1 tvg-id="Russia1.ru@SD", group-title="Общественные" ,Россия 1 (+5) (1080p)
+#EXTINF:-1 tvg-id="Russia1.ru@SD" group-title="Общественные" ,Россия 1 (+5) (1080p)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/5/russia1-hd/index.m3u8
-#EXTINF:-1 tvg-id="Russia1.ru@SD", group-title="Общественные" ,Россия 1 (+6)) (1080p)
+#EXTINF:-1 tvg-id="Russia1.ru@SD" group-title="Общественные" ,Россия 1 (+6)) (1080p)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/6/russia1-hd/index.m3u8
-#EXTINF:-1 tvg-id="Russia1.ru@SD", group-title="Общественные" ,Россия 1 (+7) (1080p)
+#EXTINF:-1 tvg-id="Russia1.ru@SD" group-title="Общественные" ,Россия 1 (+7) (1080p)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/7/russia1-hd/index.m3u8
-#EXTINF:-1 tvg-id="Russia1.ru@SD", group-title="Общественные" ,Россия 1 (+8) (1080p)
+#EXTINF:-1 tvg-id="Russia1.ru@SD" group-title="Общественные" ,Россия 1 (+8) (1080p)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/8/russia1-hd/index.m3u8
-#EXTINF:-1 tvg-id="Russia1.ru@SD", group-title="Общественные" ,Россия 1 (+9) (1080p)
+#EXTINF:-1 tvg-id="Russia1.ru@SD" group-title="Общественные" ,Россия 1 (+9) (1080p)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/9/russia1-hd/index.m3u8
-#EXTINF:-1 tvg-id="Russia1.ru@SD",Россия 1 (Абакан) (576p)
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/abakan/russia1-sd/index.m3u8
-#EXTINF:-1 tvg-id="Russia1.ru@SD",Россия 1 (Адыгея) (1080p)
-http://vgtrkregion-reg.cdnvideo.ru/vgtrk/maykop/russia1-hd/index.m3u8
-#EXTINF:-1 tvg-id="Russia1.ru@SD",Россия 1 (Алания) (1080p)
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/yaroslavl/russia24-sd/index.m3u8
 #EXTINF:-1 tvg-id="Russia24.ru@SD" group-title="Общественные" ,Россия 24 International
 https://player.smotrim.ru/iframe/stream/live_id/3214d57c-8651-435a-938c-be13bfd00a04
-#EXTINF:-1 tvg-id="RussiaK.ru@SD", group-title="Общественные" Р,оссия К (1080p)
+#EXTINF:-1 tvg-id="RussiaK.ru@SD" group-title="Общественные" ,Россия К (1080p)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/kultura-hd/index.m3u8
-#EXTINF:-1 tvg-id="RussiaK.ru@SD", group-title="Общественные" ,Россия Культура (+2) (1080p)
+#EXTINF:-1 tvg-id="RussiaK.ru@SD" group-title="Общественные" ,Россия Культура (+2) (1080p)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/2/kultura-hd/index.m3u8
-#EXTINF:-1 tvg-id="RussiaK.ru@SD", group-title="Общественные" ,Россия Культура (+4) (1080p)
+#EXTINF:-1 tvg-id="RussiaK.ru@SD" group-title="Общественные" ,Россия Культура (+4) (1080p)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/4/kultura-hd/index.m3u8
-#EXTINF:-1 tvg-id="RussiaK.ru@SD", group-title="Общественные" ,Россия Культура (+7) (1080p)
+#EXTINF:-1 tvg-id="RussiaK.ru@SD" group-title="Общественные" ,Россия Культура (+7) (1080p)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/7/kultura-hd/index.m3u8
-#EXTINF:-1 tvg-id="RTRPlaneta.ru@CIS", group-title="Общественные" ,Россия-РТР
+#EXTINF:-1 tvg-id="RTRPlaneta.ru@CIS" group-title="Общественные" ,Россия-РТР
 https://player.smotrim.ru/iframe/stream/live_id/3b73bf76-7245-4981-a865-38478e21df1f
-#EXTINF:-1 tvg-id="RTRPlaneta.ru@Asia", group-title="Общественные" ,Россия-РТР
+#EXTINF:-1 tvg-id="RTRPlaneta.ru@Asia" group-title="Общественные" ,Россия-РТР
 https://player.smotrim.ru/iframe/stream/live_id/683d9649-a96c-4a4d-b468-91c0ee2bf363
-#EXTINF:-1 tvg-id="Samara24.ru@SD", group-title="Общественные" ,Самара 24 (1080p)
+#EXTINF:-1 tvg-id="Samara24.ru@SD" group-title="Общественные" ,Самара 24 (1080p)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/samara/samara24-hd/index.m3u8
-#EXTINF:-1 tvg-id="SanktPeterburg.ru@SD", group-title="Общественные" ,Санкт-Петербург
+#EXTINF:-1 tvg-id="SanktPeterburg.ru@SD" group-title="Общественные" ,Санкт-Петербург
 https://player.smotrim.ru/iframe/stream/live_id/1a30bc46-0b5f-4f48-a3df-97e33bde0aa8
-#EXTINF:-1 tvg-id="Sibir24.ru@KYA", group-title="Общественные" ,Сибирь 24 (Красноярск) (1080p)
+#EXTINF:-1 tvg-id="Sibir24.ru@KYA" group-title="Общественные" ,Сибирь 24 (Красноярск) (1080p)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/krasnoyarsk/sibir24-hd/index.m3u8
-#EXTINF:-1 tvg-id="Sibir24.ru@NVS", group-title="Общественные" ,Сибирь 24 (Новосибирск) (1080p)
+#EXTINF:-1 tvg-id="Sibir24.ru@NVS" group-title="Общественные" ,Сибирь 24 (Новосибирск) (1080p)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/novosibirsk/sibir24-hd/index.m3u8
-#EXTINF:-1 tvg-id="Smotrim100Detskoe.ru@SD", group-title="Общественные" ,Смотрим 100% Детское
-https://player.smotrim.ru/iframe/stream/live_id/29d87e02-f367-48b1-b63e-6ce7923ab089
-#EXTINF:-1 tvg-id="Smotrim100Klassika.ru@SD", group-title="Общественные" ,Смотрим 100% Классика
-https://player.smotrim.ru/iframe/stream/live_id/78a66c7c-df38-4091-b2e1-9eeeb4c96338
-#EXTINF:-1 tvg-id="Smotrim100Lyubov.ru@SD", group-title="Общественные" ,Смотрим 100% Любовь
-https://player.smotrim.ru/iframe/stream/live_id/0d85159d-e782-4260-ac99-ac8c55df4248
-#EXTINF:-1 tvg-id="Smotrim100Muzhskoe.ru@SD", group-title="Общественные" ,Смотрим 100% Мужское
-https://player.smotrim.ru/iframe/stream/live_id/30acd0b6-e010-4230-bad1-3af77619226d
-#EXTINF:-1 tvg-id="Smotrim100Prazdnik.ru@SD", group-title="Общественные" ,Смотрим 100% Праздник
-https://player.smotrim.ru/iframe/stream/live_id/0cff8c9f-76c8-4b4a-9f23-90aa5a542564
-#EXTINF:-1 tvg-id="Smotrim100Fakty.ru@SD", group-title="Общественные" ,Смотрим 100% Факты
-https://player.smotrim.ru/iframe/stream/live_id/02cbebc5-c55d-4a02-9370-7330c9e5d34f
-#EXTINF:-1 tvg-id="SmotrimChestnyyDetektiv.ru@SD", group-title="Общественные" ,Смотрим Честный Детектив (1080p)
+#EXTINF:-1 tvg-id="SmotrimChestnyyDetektiv.ru@SD" group-title="Кино Online" ,Смотрим Честный Детектив (1080p)
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="SolovyovLive.ru@SD", group-title="Общественные" ,Соловьев LIVE
+#EXTINF:-1 tvg-id="SolovyovLive.ru@SD" group-title="Кино Online" ,Соловьев LIVE
 https://player.smotrim.ru/iframe/stream/live_id/985d5c7b-9727-4942-a4ba-a6e852caf0c1
-#EXTINF:-1 tvg-id="Surgut24.ru@SD",СургутИнформТВ
-https://sitv.ru/vgtrk/stv.m3u8
-#EXTINF:-1 tvg-id="TelekanalKrasnodar.ru@HD",Телеканал Краснодар (1080p)
-https://live-tvkrasnodar.cdnvideo.ru/tvkrasnodar/tvkrasnodar.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="Tolk.ru@HD",Толк (720p)
 
 
@@ -144,8 +104,6 @@ https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia1-hd/index.m3u8
 #EXTINF:-1 tvg-id="ntv" tvg-logo="https://iptvx.one/picons/ntv.png" group-title="Общественные" ,НТВ HD
 https://cdn.ntv.ru/ntv0/playlist.m3u8
-#EXTINF:-1 tvg-id="otr" tvg-logo="https://iptvx.one/picons/otr.png" group-title="Общественные",ОТР
-https://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R01_OTR_KLNG_FILIAL/variant.m3u8
 #EXTINF:-1 tvg-id="5kanal-ru" tvg-logo="https://iptvx.one/picons/5kanal-ru.png" group-title="Общественные" ,Пятый канал
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 http://31.131.141.195:8000/play/1050/index.m3u8
@@ -157,12 +115,6 @@ http://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221_2.smil/playlist.m3u8
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 http://31.131.141.195:8000/play/2010/index.m3u8
 #EXTINF:-1 tvg-id="rentv" tvg-logo="https://iptvx.one/picons/rentv.png" group-title="Общественные" ,Рен ТВ HD
-
-#EXTINF:-1 tvg-id="rentv-int" tvg-logo="https://iptvx.one/picons/rentv-int.png" group-title="Общественные" ,Рен ТВ Int.
-http://cdn4.skygo.mn/live/disk1/RenTV/HLSv3-FTA/RenTV.m3u8
-#EXTINF:-1 tvg-id="tv3-ru" tvg-logo="https://iptvx.one/picons/tv3-ru.png" group-title="Общественные",ТВ3
-#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
-http://31.131.141.195:8000/play/a002/index.m3u8
 #EXTINF:-1 tvg-id="zvezda" tvg-logo="https://iptvx.one/picons/zvezda.png" group-title="Общественные" ,Звезда HD
 http://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
 #EXTINF:-1 tvg-id="mir" tvg-logo="https://iptvx.one/picons/mir.png" group-title="Общественные" ,Мир
@@ -179,8 +131,6 @@ http://brics.bonus-tv.ru/cdn/brics/russian/tracks-v1a1/mono.m3u8
 http://live2.mediacdn.ru/sr1/tro/playlist.m3u8
 #EXTINF:-1 tvg-id="bolshaya-azia" tvg-logo="https://iptvx.one/picons/bolshaya-azia.png" group-title="Общественные",Большая Азия HD
 https://live-bigasia.cdnvideo.ru/bigasia/bigasia.smil/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="vremia" tvg-logo="https://iptvx.one/picons/vremia.png" group-title="Общественные" ,Время
-https://cdn4.skygo.mn/live/disk1/Vremya/HLSv3-FTA/Vremya.m3u8
 #EXTINF:-1 tvg-id="kongresstv" tvg-logo="https://iptvx.one/picons/kongresstv.png" group-title="Общественные" ,Конгресс ТВ
 https://live-4.otcnet.ru/504/135/480p/index.m3u8
 #EXTINF:-1 tvg-id="krasnaya-linia" tvg-logo="https://iptvx.one/picons/krasnaya-linia.png" group-title="Общественные" ,Красная линия
@@ -195,14 +145,20 @@ https://serv25.vintera.tv/1pnk/prnk/chunks.m3u8
 
 #EXTINF:-1 tvg-id="tcb" tvg-logo="https://iptvx.one/picons/tcb.png" group-title="Общественные" ,ТСВ
 
+
+
+
+
 #EXTINF:-1 tvg-id="euronews" tvg-logo="https://iptvx.one/picons/euronews.png" group-title="Супер Тест",Euronews
+
+
+
+
 https://stream8.cinerama.uz/1024/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="belarus24" tvg-logo="https://iptvx.one/picons/belarus24.png" group-title="Информационные",Беларусь 24 HD
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="vmeste-rf" tvg-logo="https://iptvx.one/picons/vmeste-rf.png" group-title="Информационные",ВМЕСТЕ:РФ HD
 https://qcpdqumitwf.a.trbcdn.net/livemastersrt/pr4mw_lvie-vmesterf-srt.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="izvestia" tvg-logo="https://iptvx.one/picons/izvestia.png" group-title="Информационные",Известия HD
-http://s20441.cdn.ngenix.net/hls/CH_R49_MGTK/variant.m3u8
 #EXTINF:-1 tvg-id="krik-tv" tvg-logo="https://iptvx.one/picons/krik-tv.png" group-title="Информационные" ,Крик ТВ HD
 
 #EXTINF:-1 tvg-id="mir-24" tvg-logo="https://iptvx.one/picons/mir24.png" group-title="Информационные" ,Мир 24 HD
@@ -219,6 +175,11 @@ https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-hd/720p.m3u8
 https://player.smotrim.ru/iframe/stream/live_id/985d5c7b-9727-4942-a4ba-a6e852caf0c1
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/TASS_Logo_(Cyrillic)_2017.svg/1200px-TASS_Logo_(Cyrillic)_2017.svg.png" group-title="Информационные" ,ТАСС
 https://tass-hls.servicecdn.ru/httpstreamer/tass-loop-main.stream/playlist.m3u8
+
+
+
+
+
 #EXTINF:-1 tvg-id="eurosport1" tvg-logo="https://iptvx.one/picons/eurosport1.png" group-title="Спортивные" ,Eurosport 1
 
 #EXTINF:-1 tvg-id="eurosport2" tvg-logo="https://iptvx.one/picons/eurosport2.png" group-title="Спортивные" ,Eurosport 2
@@ -240,13 +201,6 @@ http://catchup.videoline.ru/match/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="footbolny" tvg-logo="https://iptvx.one/picons/footbolny.png" group-title="Спортивные",Мяч
 
 #EXTINF:-1 tvg-id="okko-sport-2" tvg-logo="https://iptvx.one/picons/okko-sport-2.png" group-title="Спортивные" ,Окко.Спорт 2
-
-#EXTINF:-1 tvg-id="start" tvg-logo="https://iptvx.one/picons/start.png" group-title="Спортивные" ,Старт
-https://bl.webcaster.pro/media/playlist/api_free_fd14ed34164a52d1090e4cb9db93683f/4_79276517/480p/d33bbf3e6ac7c41524eae5d1c3d9258d/4873167902.m3u8?live=15&ref=https://tvstart.ru/channels/tv-start/
-#EXTINF:-1 tvg-id="start-basket" tvg-logo="https://iptvx.one/picons/start-basket.png" group-title="Спортивные",Старт Баскет
-https://bl.webcaster.pro/media/playlist/free_621d169e5c631c638136df3cb136c5c9/33_68881676/1080p/b32eaae5fbf1d2b8211543566a1d9a78/4914392769.m3u8?
-#EXTINF:-1 tvg-id="start-triumf" tvg-logo="https://iptvx.one/picons/start-triumf.png" group-title="Спортивные" ,Старт Триумф
-https://bl.webcaster.pro/media/playlist/free_672d700f2f9510be660253786e4406fe_hd/33_85479982/1080p/4eaec8986e2012fb936478856fbf3b4b/4818731006.m3u8?live=15&ref=https://tvstart.ru/ru/pages/start-triumph/
 #EXTINF:-1 tvg-id="sportivny" tvg-logo="https://iptvx.one/picons/sportivny.png" group-title="Спортивные" ,ТВ Спорт
 http://live-3.otcnet.ru/sportivny/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="tancuj" tvg-logo="https://iptvx.one/picons/tancuj.png" group-title="Спортивные" ,Танцуй!
@@ -256,6 +210,9 @@ http://live-3.otcnet.ru/sportivny/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="football-ru" tvg-logo="https://iptvx.one/picons/football-ru.png" group-title="Спортивные" ,Футбол HD
 
 #EXTINF:-1 tvg-id="xokkejny" tvg-logo="https://iptvx.one/picons/xokkejny.png" group-title="Спортивные" ,Хоккей ТВ HD
+
+
+
 
 #EXTINF:-1 tvg-id="univer-tv" tvg-logo="https://iptvx.one/picons/univer-tv.png" group-title="Образовательные" ,UNIVER
 #EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer"
@@ -270,12 +227,13 @@ https://stream8.cinerama.uz/1250/tracks-v1a1/mono.m3u8
 http://retj.educom.ru/mosobrtv/tv1/index.m3u8
 #EXTINF:-1 tvg-id="prosveschenie" tvg-logo="https://iptvx.one/picons/prosveschenie.png" group-title="Образовательные",Просвещение
 http://cdn-01.bonus-tv.ru/prosveschenie_edge/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="psixologia-21" tvg-logo="https://iptvx.one/picons/psixologia-21.png" group-title="Образовательные" ,Психология
-http://31.210.208.171:8080/psihologiya/index.m3u8?token=+W2MSER
 #EXTINF:-1 tvg-id="rodnoy-kanal" tvg-logo="https://iptvx.one/picons/rodnoy-kanal.png" group-title="Образовательные" ,Родной канал
 https://n1.slavmir.tv/live/slavmir/chunklist.m3u8
-#EXTINF:-1 tvg-id="ani" tvg-logo="https://iptvx.one/picons/ani.png" group-title="Детские",Ani
-http://31.210.208.171:8080/ani/index.m3u8?token=+W2MSER
+
+
+
+
+
 #EXTINF:-1 tvg-id="cartoon-classics" tvg-logo="https://iptvx.one/picons/cartoon-classics.png" group-title="Детские" ,Cartoon Classics
 http://5.188.159.128:8070/Cartoon_Network/index.m3u8
 #EXTINF:-1 tvg-id="cartoon-network" tvg-logo="https://iptvx.one/picons/cartoon-network.png" group-title="Детские" ,Cartoon Network
@@ -333,20 +291,24 @@ http://178.124.153.123:44400/stskids
 
 #EXTINF:-1  tvg-id="smaylik-tv" tvg-logo="https://iptvx.one/picons/smaylik-tv.png" group-title="Детские",Смайл ТВ HD
 https://5f05e059699ae.streamlock.net/WEB_Smilik/ngrp:Smilik.stream-adaptive/playlist.m3u8
-#EXTINF:-1 tvg-id="smotrim-100-detskoe" tvg-logo="https://iptvx.one/picons/smotrim-100-detskoe.png" group-title="Детские" ,Смотрим 100% Детское
-https://player.smotrim.ru/iframe/stream/live_id/29d87e02-f367-48b1-b63e-6ce7923ab089
 #EXTINF:-1 tvg-id="solnce" tvg-logo="https://iptvx.one/picons/solnce.png" group-title="Детские" ,Солнце
 http://tv.mediacdn.ru/live/solntse/playlist.m3u8
 #EXTINF:-1 tvg-id="shayantv" tvg-logo="https://iptvx.one/picons/shayantv.png" group-title="Детские" ,Шаян ТВ (Татарстан)
 http://s45177.cdn.ngenix.net/hls/CH_R03_SHAYNTV/variant.m3u8
+
+
+
+
 #EXTINF:-1 tvg-id="belarus3" tvg-logo="https://iptvx.one/picons/belarus3hd.png" group-title="Культура" ,Беларусь 3 HD
 https://edge50.dc.beltelecom.by/ngtrk/_definst_/smil:belarus3.smil/chunklist_w1684528521_b5160000_sleng.m3u8
 #EXTINF:-1 tvg-id="kultura" tvg-logo="https://iptvx.one/picons/kultura.png" group-title="Культура",Россия К HD
 http://vgtrkregion-reg.cdnvideo.ru/vgtrk/4/kultura-hd/index.m3u8
-#EXTINF:-1 tvg-id="smotrim-100-klassika" tvg-logo="https://iptvx.one/picons/smotrim-100-klassika.png" group-title="Культура" ,Смотрим 100% Классика
-https://player.smotrim.ru/iframe/stream/live_id/78a66c7c-df38-4091-b2e1-9eeeb4c96338
 #EXTINF:-1 tvg-id="teatr" tvg-logo="https://iptvx.one/picons/teatr.png" group-title="Культура" ,Театр
 http://195.26.83.96:7005/play/16/index.m3u8
+
+
+
+
 #EXTINF:-1 tvg-id="angel-tv" tvg-logo="https://iptvx.one/picons/angel-tv.png" group-title="Христианские" ,Angel TV
 https://janya-digimix.akamaized.net/vglive-sk-955415/russia/ngrp:angelrussia_all/playlist.m3u8
 #EXTINF:-1 tvg-id="no_epg" tvg-logo="https://iptvx.one/picons/2136.png" group-title="Христианские" ,Life TV
@@ -362,6 +324,10 @@ http://tvspas.mediacdn.ru/cdn/spas/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="2na2" tvg-logo="https://iptvx.one/picons/2na2.png" group-title="Развлекательные" ,2x2
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2/variant.m3u8
+
+
+
+
 #EXTINF:-1 tvg-id="gags-network" tvg-logo="https://iptvx.one/picons/gags-network.png" group-title="Развлекательные" ,Gags Network
 
 #EXTINF:-1 tvg-id="rutube-tv" tvg-logo="https://iptvx.one/picons/rutube-tv.png" group-title="Развлекательные" ,RUTUBE TV
@@ -398,18 +364,15 @@ https://cdn4.skygo.mn/live/disk1/Friday/HLSv3-FTA/Friday.m3u8
 #EXTINF:-1 tvg-id="sts" tvg-logo="https://iptvx.one/picons/sts.png" group-title="Развлекательные" ,СТС
 #EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer"
 http://31.131.141.195:8000/play/2030/index.m3u8
-#EXTINF:-1 tvg-id="sts" tvg-logo="https://iptvx.one/picons/sts.png" group-title="Развлекательные" ,СТС HD
-#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer"
+##EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer"
 
 #EXTINF:-1 tvg-id="sts-int" tvg-logo="https://iptvx.one/picons/sts-int.png" group-title="Развлекательные" ,СТС Int.
 http://158.101.222.193:88/georgia_play.php?id=ctctv
-#EXTINF:-1 tvg-id="sts-love" tvg-logo="https://iptvx.one/picons/sts-love.png" group-title="Развлекательные" ,СТС Love
-#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer"
-http://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE/variant.m3u8
+
+#EXTINF:-1 tvg-id="sts-int" tvg-logo="https://iptvx.one/picons/sts-int.png" group-title="Развлекательные" ,СТС Int.
+http://158.101.222.193:88/georgia_play.php?id=ctctv
 #EXTINF:-1 tvg-id="sarafan" tvg-logo="https://iptvx.one/picons/sarafan.png" group-title="Развлекательные" ,Сарафан
 http://31.210.208.171:8080/sarafan/index.m3u8?token=+W2MSER
-#EXTINF:-1 tvg-id="smotrim-100-prazdnik" tvg-logo="https://iptvx.one/picons/smotrim-100-prazdnik.png" group-title="Развлекательные" ,Смотрим 100% Праздник
-https://player.smotrim.ru/iframe/stream/live_id/0cff8c9f-76c8-4b4a-9f23-90aa5a542564
 #EXTINF:-1 tvg-id="super" tvg-logo="https://iptvx.one/picons/subbota.png" group-title="Развлекательные" ,Суббота
 #EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer"
 http://195.26.83.96:7013/play/a00e/index.m3u8
@@ -471,6 +434,10 @@ https://live-tolknews.cdnvideo.ru/tolknews/stream/playlist.m3u8
 #EXTINF:-1 tvg-id="tochka-tv" tvg-logo="https://iptvx.one/picons/tochka-tv.png" group-title="Развлекательные (Местные)" ,Точка ТВ
 
 #EXTINF:-1 tvg-id="tcb" tvg-logo="https://iptvx.one/picons/tcb.png" group-title="Развлекательные (Местные)" ,ТСВ
+
+
+
+
 
 #EXTINF:-1 tvg-id="1hd" tvg-logo="https://iptvx.one/picons/1hd-music.png" group-title="Музыкальные" ,1HD Music
 http://188.225.31.197/bpk-tv/000001020/tve/index.m3u8
@@ -534,6 +501,11 @@ http://chanson-video.hostingradio.ru:8080/hls/chansonabr/live.m3u8
 http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="shanson-tv" tvg-logo="https://iptvx.one/picons/shanson-tv.png" group-title="Музыкальные",Шансон ТВ
 https://uiptv.do.am/1ufc/602079679/playlist.m3u8
+
+
+
+
+
 #EXTINF:-1 tvg-id="sony-turbo" tvg-logo="https://iptvx.one/picons/sony-turbo.png" group-title="Кино и сериалы",.black
 http://158.101.222.193:88/georgia_play.php?id=black
 #EXTINF:-1 tvg-id="sony-tv" tvg-logo="https://iptvx.one/picons/sony.png" group-title="Кино и сериалы" ,.red
@@ -704,6 +676,9 @@ http://cdn2.ntv.ru/th_hit/playlist.m3u8
 http://catchup.videoline.ru/asvtv/index.m3u8
 #EXTINF:-1 tvg-id="pobeda" tvg-logo="https://iptvx.one/picons/pobeda.png" group-title="Кино и сериалы (Российские)" ,Победа
 https://cdn4.skygo.mn/live/disk1/Pobeda/HLSv3-FTA/Pobeda.m3u8
+#EXTINF:-1 tvg-id="pobeda" tvg-logo="" group-title="Кино и сериалы (Российские)" ,Победа-Патриот
+http://catchup.videoline.ru/asvtv/index.m3u8
+
 #EXTINF:-1 tvg-id="russkaya-komedia" tvg-logo="https://iptvx.one/picons/russkaya-komedia.png" group-title="Кино и сериалы (Российские)",Русская комедия
 
 #EXTINF:-1 tvg-id="russky-bestseller" tvg-logo="https://iptvx.one/picons/russky-bestseller.png" group-title="Кино и сериалы (Российские)" ,Русский бестселлер
@@ -714,12 +689,7 @@ https://cdn4.skygo.mn/live/disk1/Pobeda/HLSv3-FTA/Pobeda.m3u8
 http://158.101.222.193:88/georgia_play.php?id=rusilluzion
 #EXTINF:-1 tvg-id="russky-roman" tvg-logo="https://iptvx.one/picons/russky-roman.png" group-title="Кино и сериалы (Российские)" ,Русский роман
 http://vod.tuva.ru/rusroman/index.m3u8
-#EXTINF:-1 tvg-id="smotrim-100-lubov" tvg-logo="https://iptvx.one/picons/smotrim-100-lubov.png" group-title="Кино и сериалы (Российские)" ,Смотрим 100% Любовь
-https://player.smotrim.ru/iframe/stream/live_id/0d85159d-e782-4260-ac99-ac8c55df4248
-#EXTINF:-1 tvg-id="smotrim-100-muzhskoe" tvg-logo="https://iptvx.one/picons/smotrim-100-muzhskoe.png" group-title="Кино и сериалы (Российские)" ,Смотрим 100% Мужское
-https://player.smotrim.ru/iframe/stream/live_id/30acd0b6-e010-4230-bad1-3af77619226d
 #EXTINF:-1 tvg-id="sov-kinklass-hd" tvg-logo="https://iptvx.one/picons/sov-kinklass-hd.png" group-title="Кино и сериалы (Российские)" ,Советская киноклассика
-
 #EXTINF:-1 tvg-id="sovkino" tvg-logo="https://iptvx.one/picons/sovkino.png" group-title="Кино и сериалы (Российские)" ,Советское кино
 http://stitch.teletarget.ru/vintera/sovietmovie/index.m3u8
 #EXTINF:-1 tvg-id="feniks-plus-kino" tvg-logo="https://iptvx.one/picons/feniks-plus-kino.png" group-title="Кино и сериалы (Российские)" ,Феникс плюс кино
@@ -730,6 +700,10 @@ http://live.15plusmg.ru/memfs/b389173a-df4e-4171-8904-e249893e71eb.m3u8
 http://live.15plusmg.ru/memfs/3546fc09-2eba-459d-9a1f-9a2fc39e50bd.m3u8
 #EXTINF:-1 tvg-id="no_epg_cinema" tvg-logo="https://img.catcast.tv/uploads/04092021/logos/40672-61329195ca44d.jpg" group-title="Кино Online" ,LAV-KINO
 https://fl1004.bozztv.com/ushba32/tracks-v1a1/mono.m3u8
+
+
+
+
 #EXTINF:-1 tvg-id="pro100" tvg-logo="https://iptvx.one/picons/pro100.png" group-title="Кино Online",Pro100
 https://sirius.greenhosting.ru/Pro100tvRu/video.m3u8
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кино Online" ,Retrovision
@@ -758,12 +732,18 @@ https://cityeden.catcast.tv/content/40783/index.m3u8
 https://cityeden.catcast.tv/content/41333/index.m3u8
 #EXTINF:-1 tvg-id="no_epg_cinema" tvg-logo="https://adindex.ru/files2/photogallery/2020_11/photo2_286493_smotrim2.jpg.jpg" group-title="Кино Online" ,Смотрим (Кино и сериалы)
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/tracks-v5a1/mono.m3u8
+
+
+
+
+
 #EXTINF:-1 tvg-id="animal-planet-eu" tvg-logo="https://iptvx.one/picons/animal-planet-eu.png" group-title="Познавательные" ,Animal Planet HD
 
 #EXTINF:-1 tvg-id="Da Vinci" tvg-logo="https://iptvx.one/picons/da-vinci.png" group-title="Познавательные" ,Da Vinci
 https://liveovh011.cda.pl/2SHZi_SkX4h0MDflza1PPw/1753748478/3480440/enc109/davincihdraw/davincihdraw.m3u8
 #EXTINF:-1 tvg-id="discovery-channel" tvg-logo="https://iptvx.one/picons/discovery-channel.png" group-title="Познавательные" ,Discovery HD
 http://5.188.159.128:8070/DiscoveryChannel/index.m3u8
+
 #EXTINF:-1 tvg-id="galaxy-tv" tvg-logo="https://iptvx.one/picons/galaxy-tv.png" group-title="Познавательные" ,Galaxy
 https://a3569457567-s70378.cdn.ngenix.net/galaxy/1/index.m3u8
 #EXTINF:-1 tvg-id="hgtv" tvg-logo="https://iptvx.one/picons/hgtv.png" group-title="Познавательные" ,HGTV HD
@@ -846,12 +826,14 @@ http://hls.tva.cdnvideo.ru/tva/tvahd.sdp/playlist.m3u8
 
 #EXTINF:-1 tvg-id="teleputeshestvia" tvg-logo="https://iptvx.one/picons/teleputeshestvia.png" group-title="Познавательные" ,Телепутешествия
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Telepyt
-#EXTINF:-1 tvg-id="smotrim-100-fakty" tvg-logo="https://iptvx.one/picons/smotrim-100-fakty.png" group-title="Познавательные" ,Смотрим 100% Факты
-https://player.smotrim.ru/iframe/stream/live_id/02cbebc5-c55d-4a02-9370-7330c9e5d34f
 #EXTINF:-1 tvg-id="sovsek" tvg-logo="https://iptvx.one/picons/sovsek.png" group-title="Познавательные" ,Совершенно Секретно
 
 #EXTINF:-1 tvg-id="texno-24" tvg-logo="https://iptvx.one/picons/texno-24.png" group-title="Познавательные" ,Техно 24
 https://stream8.cinerama.uz/1037/tracks-v1a1/mono.m3u8
+
+
+
+
 #EXTINF:-1 tvg-id="avto24" tvg-logo="http://epg.it999.ru/img2/2008.png" group-title="Хобби и увлечения" ,АВТО 24
 https://stream8.cinerama.uz/1430/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="appetitny" tvg-logo="https://iptvx.one/picons/appetitny.png" group-title="Хобби и увлечения",Аппетитный
@@ -903,6 +885,12 @@ http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Tonus
 #EXTINF:-1 tvg-id="tochka-otryva" tvg-logo="http://epg.it999.ru/img2/617.png" group-title="Хобби и увлечения" ,Точка Отрыва
 https://stream8.cinerama.uz/1031/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="usadba" tvg-logo="https://iptvx.one/picons/usadba.png" group-title="Хобби и увлечения" ,Усадьба
+
+
+
+
+
+
 
 #EXTINF:-1 tvg-id="360-news" tvg-logo="https://iptvx.one/picons/360-news.png" group-title="Местные" ,360° Новости HD
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-04-srt.smil/playlist.m3u8
@@ -1114,8 +1102,6 @@ https://vgtrkregion-reg.cdnvideo.ru/vgtrk/samara/samara24-hd/index.m3u8
 http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R01_SAMOTLOR/variant.m3u8
 #EXTINF:-1 tvg-id="sampo-tv" tvg-logo="https://iptvx.one/picons/sampo-tv.png" group-title="Местные" ,Сампо ТВ
 http://rt-nw-pzav-htlive.cdn.ngenix.net/hls/CH_R01_SAMPOTV/variant.m3u8
-#EXTINF:-1 tvg-id="sankt-peterburg" tvg-logo="https://iptvx.one/picons/sankt-peterburg.png" group-title="Местные" ,Санкт-Петербург
-https://player.smotrim.ru/iframe/stream/live_id/1a30bc46-0b5f-4f48-a3df-97e33bde0aa8
 #EXTINF:-1 tvg-id="saratov-24" tvg-logo="https://iptvx.one/picons/saratov-24.png" group-title="Местные" ,Саратов 24
 http://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R01_SARATOV24/variant.m3u8
 #EXTINF:-1 tvg-id="sarov-24" tvg-logo="https://iptvx.one/picons/sarov-24.png" group-title="Местные" ,Саров 24 HD
@@ -1185,6 +1171,12 @@ https://rt-vlg-kzn-htlive.cdn.ngenix.net/hls/CH_R01_EFIR/variant.m3u8
 http://stream.novouralsk-news.ru/echotv24/echotv24-576p.m3u8
 #EXTINF:-1 tvg-id="yamal-region" tvg-logo="https://iptvx.one/picons/yamal-region.png" group-title="Местные" ,Ямал-Регион
 https://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_YAMREG_URAL_YNF/variant.m3u8
+
+
+
+
+
+
 #EXTINF:-1 tvg-id="sochi-live" tvg-logo="https://iptvx.one/picons/sochi-live.png" group-title="Медитативные" ,Sochi Live
 http://serv30.vintera.tv:8081/sochi/sochi_stream/playlist.m3u8
 #EXTINF:-1 tvg-id="nasha-sibir" tvg-logo="https://iptvx.one/picons/nasha-sibir.png" group-title="Медитативные" ,Наша Сибирь
