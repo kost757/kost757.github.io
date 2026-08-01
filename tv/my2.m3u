@@ -778,8 +778,8 @@ http://185.164.82.18:9010/ykMHqK_Fox
 
 #EXTINF:-1 tvg-id="mosfilm" tvg-logo="https://iptvx.one/picons/mosfilm.png" group-title="Кино и сериалы (Российские)", Мосфильм. Золотая коллекция (Tricolor)
 http://sgw.ott.tricolor.tv/streamingGateway/GetLivePlayList?source=Mosfilm_HD.m3u8&serviceArea=MSK-SA-1&drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI1MDIxOTAwODc5MzY1MCIsImV4cCI6MTczMTg0NjY4NCwiaHdpZCI6IjhlYmIxNzVmZTU1M2NhOWQ5ODU0ZWI1NGEzMTAwZjAzZDQxM2MyYjhiNjUyNjBlMWQ4MGIxYmU2M2JmYTYyNmIiLCJsYXN0X3JlcV9kYXRlIjoxNzMxMjQxODg0LCJzZXNzaW9uX2lkIjoiYjAyNmEwMDllYWQwMDM4MGZhZDY4ODI4Nzc1YjVhZmYiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.K9OWJfhcJWqW-HRqRLlqhv6El5ukv9Df2K-wW6ZccDs
-
-
+#EXTINF:-1 tvg-id="mosfilm" tvg-logo="https://iptvx.one/picons/mosfilm.png" group-title="Кино и сериалы (Российские)", Мосфильм. Золотая коллекция (GlobalTv)
+http://193.242.190.6:8099/98/index.m3u8
 #EXTINF:-1 tvg-id="mosfilm" tvg-logo="https://iptvx.one/picons/mosfilm.png" group-title="Кино и сериалы (Российские)",Мосфильм. Золотая коллекция beetv (-1)
 https://ucdn.beetv.kz/bpk-tv/000006365/tve/index.m3u8
 #EXTINF:-1 tvg-id="nash-kinopokaz-hd" tvg-logo="https://iptvx.one/picons/nash-kinopokaz.png" group-title="Кино и сериалы (Российские)" ,Наш кинопоказ HD
