@@ -10,7 +10,7 @@
 
 
 #EXTM3U
-#EXTINF:-1 tvg-id="UnknownRussia.ru@SD"  group-title="ОБН.01.08.26 15:04"  ,ОБН.01.08.26 15:04
+#EXTINF:-1 tvg-id="UnknownRussia.ru@SD"  group-title="ОБН.01.08.26 15:24"  ,ОБН.01.08.26 15:24
 https://cdn.ntv.ru/unknown_russia/playlist.m3u8
 
 
@@ -55,31 +55,31 @@ https://player.smotrim.ru/iframe/stream/live_id/1525504b-449d-432d-ab5d-1f11081f
 https://player.smotrim.ru/iframe/stream/live_id/cf22fa5c-e21a-433e-8317-7e8dd3150d6a
 #EXTINF:-1 tvg-id="BigAsia.ru@SD" group-title="Общественные" ,Большая Азия (720p)
 https://live-bigasia.cdnvideo.ru/bigasia/bigasia.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="Russia1.ru@SD" group-title="Общественные" ,Россия 1 (1080p)
+#EXTINF:-1 tvg-id="Rossia1" group-title="Общественные" ,Россия 1 (1080p)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia1-hd/index.m3u8
-#EXTINF:-1 tvg-id="Russia1.ru@SD" group-title="Федеральные плюс" ,Россия 1 (+1) (1080p)
+#EXTINF:-1 tvg-id="CH_RUSSIA1_1" group-title="Федеральные плюс" ,Россия 1 (+1) (1080p)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/1/russia1-hd/index.m3u8
-#EXTINF:-1 tvg-id="Russia1.ru@SD" group-title="Федеральные плюс" ,Россия 1 (+2) (1080p)
+#EXTINF:-1 tvg-id="CH_RUSSIA1_2" group-title="Федеральные плюс" ,Россия 1 (+2) (1080p)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/2/russia1-hd/index.m3u8
-#EXTINF:-1 tvg-id="Russia1.ru@SD" group-title="Федеральные плюс" ,Россия 1 (+3) (1080p)
+#EXTINF:-1 tvg-id="CH_RUSSIA1_3" group-title="Федеральные плюс" ,Россия 1 (+3) (1080p)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/3/russia1-hd/index.m3u8
-#EXTINF:-1 tvg-id="Russia1.ru@SD" group-title="Федеральные плюс" ,Россия 1 (+4) (1080p)
+#EXTINF:-1 tvg-id="CH_RUSSIA1_4" group-title="Федеральные плюс" ,Россия 1 (+4) (1080p)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/4/russia1-hd/index.m3u8
-#EXTINF:-1 tvg-id="Russia1.ru@SD" group-title="Федеральные плюс" ,Россия 1 (+5) (1080p)
+#EXTINF:-1 tvg-id="CH_RUSSIA1_5" group-title="Федеральные плюс" ,Россия 1 (+5) (1080p)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/5/russia1-hd/index.m3u8
-#EXTINF:-1 tvg-id="Russia1.ru@SD" group-title="Федеральные плюс" ,Россия 1 (+6)) (1080p)
+#EXTINF:-1 tvg-id="CH_RUSSIA1_6" group-title="Федеральные плюс" ,Россия 1 (+6)) (1080p)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/6/russia1-hd/index.m3u8
-#EXTINF:-1 tvg-id="Russia1.ru@SD" group-title="Федеральные плюс" ,Россия 1 (+7) (1080p)
+#EXTINF:-1 tvg-id="CH_RUSSIA1_7" group-title="Федеральные плюс" ,Россия 1 (+7) (1080p)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/7/russia1-hd/index.m3u8
-#EXTINF:-1 tvg-id="Russia1.ru@SD" group-title="Федеральные плюс" ,Россия 1 (+8) (1080p)
+#EXTINF:-1 tvg-id="CH_RUSSIA1_8" group-title="Федеральные плюс" ,Россия 1 (+8) (1080p)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/8/russia1-hd/index.m3u8
-#EXTINF:-1 tvg-id="Russia1.ru@SD" group-title="Федеральные плюс" ,Россия 1 (+9) (1080p)
+#EXTINF:-1 tvg-id="CH_RUSSIA1_9" group-title="Федеральные плюс" ,Россия 1 (+9) (1080p)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/9/russia1-hd/index.m3u8
-#EXTINF:-1 tvg-id="Russia24.ru@SD" group-title="Общественные" ,Россия 24 International
+#EXTINF:-1 tvg-id="Rossia-24" group-title="Общественные" ,Россия 24 International
 https://player.smotrim.ru/iframe/stream/live_id/3214d57c-8651-435a-938c-be13bfd00a04
-#EXTINF:-1 tvg-id="RussiaK.ru@SD" group-title="Общественные" ,Россия К (1080p)
+#EXTINF:-1 tvg-id="kultura" group-title="Общественные" ,Россия К (1080p)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/kultura-hd/index.m3u8
-#EXTINF:-1 tvg-id="RussiaK.ru@SD" group-title="Федеральные плюс" ,Россия Культура (+2) (1080p)
+#EXTINF:-1 tvg-id="kultura" group-title="Федеральные плюс" ,Россия Культура (+2) (1080p)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/2/kultura-hd/index.m3u8
 #EXTINF:-1 tvg-id="RussiaK.ru@SD" group-title="Федеральные плюс" ,Россия Культура (+4) (1080p)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/4/kultura-hd/index.m3u8
@@ -91,8 +91,6 @@ https://player.smotrim.ru/iframe/stream/live_id/3b73bf76-7245-4981-a865-38478e21
 https://player.smotrim.ru/iframe/stream/live_id/683d9649-a96c-4a4d-b468-91c0ee2bf363
 #EXTINF:-1 tvg-id="Samara24.ru@SD" group-title="Общественные" ,Самара 24 (1080p)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/samara/samara24-hd/index.m3u8
-#EXTINF:-1 tvg-id="SanktPeterburg.ru@SD" group-title="Общественные" ,Санкт-Петербург
-https://player.smotrim.ru/iframe/stream/live_id/1a30bc46-0b5f-4f48-a3df-97e33bde0aa8
 
 #EXTINF:-1 tvg-id="SmotrimChestnyyDetektiv.ru@SD" group-title="Кино Online" ,Смотрим Честный Детектив (1080p)
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/playlist.m3u8
@@ -101,7 +99,7 @@ https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/playlist
 
 
 
-#EXTINF:-1 tvg-id="Russia1.ru@SD" tvg-logo="https://iptvx.one/picons/rossia1.png" group-title="Общественные" ,Россия 1 SD
+#EXTINF:-1 tvg-id="Rossia1" tvg-logo="https://iptvx.one/picons/rossia1.png" group-title="Общественные" ,Россия 1 SD
 #EXTVLCOPT:http-referrer=https://televizor24tochka.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
 https://streaming.televizor-24-tochka.ru/live/5.m3u8
@@ -141,11 +139,15 @@ http://31.131.141.195:8000/play/2010/index.m3u8
 #EXTINF:-1 tvg-id="rentv" tvg-logo="https://iptvx.one/picons/rentv.png" group-title="Общественные" ,Рен ТВ HD
 #EXTINF:-1 tvg-id="zvezda" tvg-logo="https://iptvx.one/picons/zvezda.png" group-title="Общественные" ,Звезда HD
 http://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
-#EXTINF:-1 tvg-id="Zvezda.ru@SD"  tvg-logo="https://iptvx.one/picons/zvezda.png" group-title="Общественные" ,Звезда SD
+#EXTINF:-1 tvg-id="Zvezda"  tvg-logo="https://iptvx.one/picons/zvezda.png" group-title="Общественные" ,Звезда SD
 https://streaming.televizor-24-tochka.ru/live/748.m3u8
+
+#EXTINF:-1 tvg-id="zvezda-plus" group-title="Общественные",Звезда Плюс HD
+http://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/playlist_hdhigh.m3u8
+
 #EXTINF:-1 tvg-id="mir" tvg-logo="https://iptvx.one/picons/mir.png" group-title="Общественные" ,Мир
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
-#EXTINF:-1 tvg-id="Mir.ru@SD"  tvg-logo="https://iptvx.one/picons/mir.png"  group-title="Общественные" ,МИР SD
+#EXTINF:-1 tvg-id="Mir"  tvg-logo="https://iptvx.one/picons/mir.png"  group-title="Общественные" ,МИР SD
 #EXTVLCOPT:http-referrer=https://televizor24tochka.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
 https://streaming.televizor-24-tochka.ru/live/22.m3u8
@@ -174,13 +176,16 @@ http://194.158.222.36:6102
 https://serv25.vintera.tv/1pnk/prnk/chunks.m3u8
 #EXTINF:-1 tvg-id="ratnik" tvg-logo="https://iptvx.one/picons/ratnik.png" group-title="Общественные" ,Ратник HD
 
+#EXTINF:-1 tvg-id="SanktPeterburg.ru@SD" group-title="Общественные" ,Санкт-Петербург
+https://player.smotrim.ru/iframe/stream/live_id/1a30bc46-0b5f-4f48-a3df-97e33bde0aa8
+
 #EXTINF:-1 tvg-id="NTVLaw.ru@SD" group-title="Общественные" ,НТВ Право (576p)
 https://cdn.ntv.ru/th_pravo/playlist.m3u8
-#EXTINF:-1 tvg-id="NTVSeries.ru@SD" group-title="Общественные" ,НТВ Сериал (576p)
+#EXTINF:-1 tvg-id="NTV-Serial" group-title="Общественные" ,НТВ Сериал (576p)
 https://cdn.ntv.ru/th_serial/playlist.m3u8
-#EXTINF:-1 tvg-id="NTVStyle.ru@SD" group-title="Общественные" ,НТВ Стиль (576p)
+#EXTINF:-1 tvg-id="NTV-Style.ru" group-title="Общественные" ,НТВ Стиль (576p)
 https://cdn.ntv.ru/th_style/playlist.m3u8
-#EXTINF:-1 tvg-id="NTVHit.ru@SD" group-title="Общественные" ,НТВ Хит (576p)
+#EXTINF:-1 tvg-id="NTV-Hit.ru" group-title="Общественные" ,НТВ Хит (576p)
 https://cdn.ntv.ru/th_hit/playlist.m3u8
 #EXTINF:-1 tvg-id="tcb" tvg-logo="https://iptvx.one/picons/tcb.png" group-title="Общественные" ,ТСВ
 #EXTINF:-1 tvg-id="VestiFM.ru@HD" group-title="Общественные" ,Радио Вести ФМ
@@ -501,6 +506,8 @@ https://live-tolknews.cdnvideo.ru/tolknews/stream/playlist.m3u8
 
 
 
+#EXTINF:-1 tvg-logo="https://thumbs.dreamstime.com/b/фи-ьм-49148066.jpg" tvg-id="no_epg_music" group-title="Музыкальные",Музыка Кино International
+http://autopilot.catcast.tv/content/37739/index.m3u8
 
 #EXTINF:-1 tvg-id="1hd" tvg-logo="https://iptvx.one/picons/1hd-music.png" group-title="Музыкальные" ,1HD Music
 http://188.225.31.197/bpk-tv/000001020/tve/index.m3u8
