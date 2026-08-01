@@ -50,13 +50,13 @@ https://streaming.thestream.cyou/live/210.m3u8
 #EXTINF:-1 tvg-id="pervy" tvg-logo="https://iptvx.one/picons/pervy.png" group-title="Общественные" ,Первй канал HD
 https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
 
-#EXTINF:-1 tvg-id="rtr-planeta-azia" tvg-logo="https://i.imgur.com/T42cuYx.png" group-title="General",Russia RTR CIS [Geo-blocked]
+#EXTINF:-1 tvg-id="rtr-planeta-azia" tvg-logo="https://i.imgur.com/T42cuYx.png" group-title="Общественные",Russia RTR CIS [Geo-blocked]
 https://stream.smotrim.ru/hls/planeta_rtr_sng/playlist.m3u8?entity=channel&id=512&sign=2abaa592de074d65809a10b6bacc4410
-#EXTINF:-1 tvg-id="rtr-planeta-azia" tvg-logo="https://i.imgur.com/T42cuYx.png" group-title="General",Россия-РТР
+#EXTINF:-1 tvg-id="rtr-planeta-azia" tvg-logo="https://i.imgur.com/T42cuYx.png" group-title="Общественные",Россия-РТР
 https://streaming.televizor-24-tochka.ru/live/211.m3u8
-#EXTINF:-1 tvg-id="rtr-planeta-eu" tvg-logo="https://i.imgur.com/0YEahxs.png" group-title="General",RTR Planeta Europe [Geo-blocked]
+#EXTINF:-1 tvg-id="rtr-planeta-eu" tvg-logo="https://i.imgur.com/0YEahxs.png" group-title="Общественные",RTR Planeta Europe [Geo-blocked]
 https://stream.smotrim.ru/hls/planeta_rtr_euro/playlist.m3u8?entity=channel&id=510&sign=5c0ac65d75140fac2fd938d77c92138d
-#EXTINF:-1 tvg-id="rtr-planeta-amerika" tvg-logo="https://i.imgur.com/0YEahxs.png" group-title="General",RTR Planeta USA [Geo-blocked]
+#EXTINF:-1 tvg-id="rtr-planeta-amerika" tvg-logo="https://i.imgur.com/0YEahxs.png" group-title="Общественные",RTR Planeta USA [Geo-blocked]
 https://stream.smotrim.ru/hls/planeta_rtr_usa/playlist.m3u8?entity=channel&id=513&sign=3ac5d8e2db71ef7fc3d4becbff7512d8
 #
 
@@ -94,11 +94,11 @@ https://vgtrkregion-reg.cdnvideo.ru/vgtrk/4/kultura-hd/index.m3u8
 #EXTINF:-1 tvg-id="RussiaK.ru@SD" group-title="Федеральные плюс" ,Россия Культура (+7) (1080p)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/7/kultura-hd/index.m3u8
 
-#EXTINF:-1 tvg-id="Mir" tvg-logo="https://i.imgur.com/AqWaJT8.png" group-title="General",Мир +2 (540p)
+#EXTINF:-1 tvg-id="Mir" tvg-logo="https://i.imgur.com/AqWaJT8.png" group-title="Федеральные плюс",Мир +2 (540p)
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv2_2500/playlist.m3u8
-#EXTINF:-1 tvg-id="Mir" tvg-logo="https://i.imgur.com/AqWaJT8.png" group-title="General",Мир +4 (576p)
+#EXTINF:-1 tvg-id="Mir" tvg-logo="https://i.imgur.com/AqWaJT8.png" group-title="Федеральные плюс",Мир +4 (576p)
 http://31.148.48.15/Mir/index.m3u8
-#EXTINF:-1 tvg-id="Mir" tvg-logo="https://i.imgur.com/AqWaJT8.png" group-title="General",Мир +7 (540p)
+#EXTINF:-1 tvg-id="Mir" tvg-logo="https://i.imgur.com/AqWaJT8.png" group-title="Федеральные плюс",Мир +7 (540p)
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv7_2500/playlist.m3u8
 
 
@@ -774,7 +774,7 @@ http://176.118.197.101/Komediya/index.m3u8
 http://31.148.48.15:80/Mir_Seriala/index.m3u8
 #EXTINF:-1 tvg-id="mosfilm" tvg-logo="https://iptvx.one/picons/mosfilm.png" group-title="Кино и сериалы (Российские)" ,Мосфильм. Золотая коллекция (EU)
 http://185.164.82.18:9010/ykMHqK_Fox
-#EXTINF:-1 tvg-id="mosfilm" tvg-logo="https://iptvx.one/picons/mosfilm.png" group-title="Кино и сериалы", Мосфильм. Золотая коллекция (GlobalTv)
+#EXTINF:-1 tvg-id="mosfilm" tvg-logo="https://iptvx.one/picons/mosfilm.png" group-title="Кино и сериалы (Российские)", Мосфильм. Золотая коллекция (GlobalTv)
 http://193.242.190.6:8099/98/index.m3u8
 #EXTINF:-1 tvg-id="mosfilm" tvg-logo="https://iptvx.one/picons/mosfilm.png" group-title="Кино и сериалы (Российские)",Мосфильм. Золотая коллекция beetv (-1)
 https://ucdn.beetv.kz/bpk-tv/000006365/tve/index.m3u8
