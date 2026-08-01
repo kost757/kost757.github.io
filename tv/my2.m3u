@@ -10,7 +10,7 @@
 
 
 #EXTM3U
-#EXTINF:-1 tvg-id="UnknownRussia.ru@SD"  group-title="ОБН.18.05.26 17:59"  ,ОБН.18.05.26 17:59
+#EXTINF:-1 tvg-id="UnknownRussia.ru@SD"  group-title="ОБН.01.08.26 14:59"  ,ОБН.01.08.26 14:59
 https://cdn.ntv.ru/unknown_russia/playlist.m3u8
 
 
@@ -49,7 +49,7 @@ https://streaming.thestream.cyou/live/210.m3u8
 #EXTINF:-1 tvg-id="pervy" tvg-logo="https://iptvx.one/picons/pervy.png" group-title="Общественные" ,Первй канал HD
 https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
 
-#EXTINF:-1 tvg-id="RTRPlaneta.ru@Europe" group-title="Общественные" ,Planeta-RTR
+#EXTINF:-1 tvg-id="RTRPlaneta.ru@Europe" group-title="Общественные" ,Planeta-RTR-Евр
 https://player.smotrim.ru/iframe/stream/live_id/1525504b-449d-432d-ab5d-1f11081f8603
 #EXTINF:-1 tvg-id="RTRPlaneta.ru@USA" group-title="Общественные" ,Planeta-RTR
 https://player.smotrim.ru/iframe/stream/live_id/cf22fa5c-e21a-433e-8317-7e8dd3150d6a
