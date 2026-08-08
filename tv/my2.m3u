@@ -10,7 +10,7 @@
 
 
 #EXTM3U
-#EXTINF:-1 tvg-id="UnknownRussia.ru@SD"  group-title="ОБН.09.08.26 00:14"  ,ОБН.09.08.26 00:14
+#EXTINF:-1 tvg-id="UnknownRussia.ru@SD"  group-title="ОБН.09.08.26 00:30 ,ОБН.09.08.26 00:30
 https://cdn.ntv.ru/unknown_russia/playlist.m3u8
 
 
@@ -55,9 +55,9 @@ http://dmi3y-tv.online/hls/smotrim/T2/CH_PLANETARTRHD720_EURO.m3u8
 
 #EXTINF:-1 tvg-id="rtr-planeta-amerika" tvg-logo="https://i.imgur.com/0YEahxs.png" group-title="Общественные",RTR Planeta USA [Geo-blocked]
 https://stream.smotrim.ru/hls/planeta_rtr_usa/playlist.m3u8?entity=channel&id=513&sign=3ac5d8e2db71ef7fc3d4becbff7512d8
-#EXTINF:-1 tvg-id="rtr-planeta-amerika"  group-title="ЭФИРНЫЕ",PLANETA RTR (USA) (dmi3y-tv)
+#EXTINF:-1 tvg-id="rtr-planeta-amerika"  group-title="Общественные",PLANETA RTR (USA) (dmi3y-tv)
 http://dmi3y-tv.online/hls/smotrim/T2/CH_PLANETARTR_USA.m3u8
-#EXTINF:-1 tvg-id="rtr-planeta-amerika"  group-title="ЭФИРНЫЕ",PLANETA RTR HD720 (USA) (dmi3y-tv)
+#EXTINF:-1 tvg-id="rtr-planeta-amerika"  group-title="Общественные",PLANETA RTR HD720 (USA) (dmi3y-tv)
 http://dmi3y-tv.online/hls/smotrim/T2/CH_PLANETARTRHD720_USA.m3u8
 
 
@@ -65,9 +65,9 @@ http://dmi3y-tv.online/hls/smotrim/T2/CH_PLANETARTRHD720_USA.m3u8
 https://live-bigasia.cdnvideo.ru/bigasia/bigasia.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Rossia1" group-title="Общественные" ,Россия 1 (1080p)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia1-hd/index.m3u8
-#EXTINF:-1 tvg-id="Rossia1" group-title="ЭФИРНЫЕ",Россия 1  (dmi3y-tv)
+#EXTINF:-1 tvg-id="Rossia1" group-title="Общественные",Россия 1  (dmi3y-tv)
 http://dmi3y-tv.online/hls/smotrim/T2/CH_RUSSIA1.m3u8
-#EXTINF:-1 tvg-id="Rossia1" group-title="ЭФИРНЫЕ",Россия 1 HD  (dmi3y-tv)
+#EXTINF:-1 tvg-id="Rossia1" group-title="Общественные",Россия 1 HD  (dmi3y-tv)
 http://dmi3y-tv.online/hls/smotrim/T2/CH_RUSSIA1HD.m3u8
 
 
@@ -125,12 +125,12 @@ https://streaming.televizor-24-tochka.ru/live/13.m3u8
 http://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221_2.smil/playlist.m3u8
 #EXTINF:-1  tvg-id="tvcentr"   tvg-logo="https://iptvx.one/picons/tvcentr.png"  group-title="Общественные",ТВЦ  (dmi3y-tv)
 http://dmi3y-tv.online/hls/T2/CH_TVC.m3u8
-#EXTINF:-1  tvg-id="tvcentrint" group-title="Общественные",ТВЦ International (dmi3y-tv) 
+#EXTINF:-1  tvg-id="tvci" group-title="Общественные",ТВЦ International (dmi3y-tv) 
 http://dmi3y-tv.online/hls/T2/CH_TVC_INTERNATIONAL.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptvx.one/picons/18.png" group-title="Общественные" ,Рен ТВ Int beetv
 https://ucdn.beetv.kz/bpk-tv/000002472/tve/index.m3u8 
-#EXTINF:-1 tvg-logo="https://iptvx.one/picons/18.png" group-title="Общественные" ,Рен ТВ Int  (dmi3y-tv)
+#EXTINF:-1 tvg-id="rentv-int"  tvg-logo="https://iptvx.one/picons/18.png" group-title="Общественные" ,Рен ТВ Int  (dmi3y-tv)
 http://dmi3y-tv.online/hls/T2/CH_RENTV_INTERNATIONAL.m3u8
 #EXTINF:-1 tvg-id="rentv" tvg-logo="https://iptvx.one/picons/18.png" group-title="Общественные" ,Рен ТВ
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
@@ -334,7 +334,7 @@ https://edge50.dc.beltelecom.by/ngtrk/_definst_/smil:informacionnyy.smil/chunkli
 https://tv-streaming.bsh.ru:21938/probusiness/probusiness.stream/chunklist.m3u8
 #EXTINF:-1 tvg-id="rbk" tvg-logo="https://iptvx.one/picons/rbk.png" group-title="Информационные" ,РБК HD
 http://online.video.rbc.ru/online/rbctvhd_1080p/index.m3u8
-#EXTINF:-1  tvg-id="rbk" tvg-logo="https://iptvx.one/picons/rbk.png" group-title="ИНФОРМАЦИОННЫЕ",РБК
+#EXTINF:-1  tvg-id="rbk" tvg-logo="https://iptvx.one/picons/rbk.png" group-title="Информационные",РБК
 http://dmi3y-tv.online/hls/CH_RBK.m3u8
 #EXTINF:-1 tvg-id="rossia-24" tvg-logo="https://iptvx.one/picons/rossia-24.png" group-title="Информационные" ,Россия 24 HD
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-hd/720p.m3u8
@@ -475,7 +475,7 @@ http://dmi3y-tv.online/hls/CH_SOLNCE.m3u8
 
 #EXTINF:-1 tvg-id="shayantv" tvg-logo="https://iptvx.one/picons/shayantv.png" group-title="Детские" ,Шаян ТВ (Татарстан)
 http://s45177.cdn.ngenix.net/hls/CH_R03_SHAYNTV/variant.m3u8
-#EXTINF:-1  tvg-id="smotrim-100-detskoe" group-title="ДЕТСКИЕ",СМОТРИМ 100% ДЕТСКОЕ
+#EXTINF:-1  tvg-id="smotrim-100-detskoe" group-title="Детские",СМОТРИМ 100% ДЕТСКОЕ
 http://dmi3y-tv.online/hls/smotrim/CH_DETSKOE.m3u8
 
 
@@ -731,7 +731,7 @@ http://dmi3y-tv.online/hls/smotrim/CH_MUZHSKOE.m3u8
 #EXTINF:-1 tvg-id="smotrim-100-klassika" group-title="Кино и сериалы",СМОТРИМ 100% КЛАССИКА (dmi3y-tv) 
 http://dmi3y-tv.online/hls/smotrim/CH_CLASSICA.m3u8
  
-#EXTINF:-1 tvg-id="russky-roman" group-title="КИНО И СЕРИАЛЫ",Русский роман
+#EXTINF:-1 tvg-id="russky-roman" group-title="Кино и сериалы",Русский роман
 http://dmi3y-tv.online/hls/CH_RUSSKIY_ROMAN.m3u8
 
 #EXTINF:-1 tvg-id="sony-turbo" tvg-logo="https://iptvx.one/picons/sony-turbo.png" group-title="Кино и сериалы",.black
@@ -971,7 +971,7 @@ http://vod.tuva.ru/rusroman/index.m3u8
 #EXTINF:-1 tvg-id="sov-kinklass-hd" tvg-logo="https://iptvx.one/picons/sov-kinklass-hd.png" group-title="Кино и сериалы (Российские)" ,Советская киноклассика
 #EXTINF:-1 tvg-id="sovkino" tvg-logo="https://iptvx.one/picons/sovkino.png" group-title="Кино и сериалы (Российские)" ,Советское кино
 http://stitch.teletarget.ru/vintera/sovietmovie/index.m3u8
-#EXTINF:-1 tvg-id="retro-tv" tvg-logo="https://iptvx.one/picons/retro-tv.png" group-title="Кино и сериалы" ,Ретро
+#EXTINF:-1 tvg-id="retro-tv" tvg-logo="https://iptvx.one/picons/retro-tv.png" group-title="Кино и сериалы (Российские)" ,Ретро
 http://176.118.197.101/Retro/index.m3u8
 
 
@@ -1084,22 +1084,22 @@ https://ucdn.beetv.kz/bpk-tv/000006482/tve/index.m3u8
 https://ucdn.beetv.kz/bpk-tv/000004157/tve/index.m3u8
 
 
-#EXTINF:-1 tvg-id="smotrim-100-fakty" group-title="ПОЗНАВАТЕЛЬНЫЕ",СМОТРИМ 100% ФАКТЫ
+#EXTINF:-1 tvg-id="smotrim-100-fakty" group-title="Познавательные",СМОТРИМ 100% ФАКТЫ
 http://dmi3y-tv.online/hls/smotrim/CH_FAKTY.m3u8
-#EXTINF:-1 tvg-id="vremia" group-title="ПОЗНАВАТЕЛЬНЫЕ",ВРЕМЯ  (dmi3y-tv) 
+#EXTINF:-1 tvg-id="vremia" group-title="Познавательные",ВРЕМЯ  (dmi3y-tv) 
 http://dmi3y-tv.online/hls/CH_VREMYA.m3u8
-#EXTINF:-1  tvg-id="history"  group-title="ПОЗНАВАТЕЛЬНЫЕ",HISTORY (dmi3y-tv) 
+#EXTINF:-1  tvg-id="history"  group-title="Познавательные",HISTORY (dmi3y-tv) 
 http://dmi3y-tv.online/hls/CH_HISTORY.m3u8
-#EXTINF:-1 tvg-id="h2"  group-title="ПОЗНАВАТЕЛЬНЫЕ",HISTORY 2 (dmi3y-tv) 
+#EXTINF:-1 tvg-id="h2"  group-title="Познавательные",HISTORY 2 (dmi3y-tv) 
 http://dmi3y-tv.online/hls/CH_HISTORY_2.m3u8
 
-#EXTINF:-1 tvg-id="prikluchenia-hd" group-title="ПОЗНАВАТЕЛЬНЫЕ",ПРИКЛЮЧЕНИЯ
+#EXTINF:-1 tvg-id="prikluchenia-hd" group-title="Познавательные",ПРИКЛЮЧЕНИЯ
 http://dmi3y-tv.online/hls/CH_PRIKLYUCHENIYA.m3u8
-#EXTINF:-1 tvg-id="glazami-turista" group-title="ПОЗНАВАТЕЛЬНЫЕ",Глазами туриста
+#EXTINF:-1 tvg-id="glazami-turista" group-title="Познавательные",Глазами туриста
 http://dmi3y-tv.online/hls/CH_GLAZAMI_TURISTA.m3u8
-#EXTINF:-1 tvg-id="nasha-sibir" group-title="ПОЗНАВАТЕЛЬНЫЕ",НАША СИБИРЬ HD
+#EXTINF:-1 tvg-id="nasha-sibir" group-title="Познавательные",НАША СИБИРЬ HD
 http://dmi3y-tv.online/hls/CH_NASHA_SIBIRHD.m3u8
-#EXTINF:-1 tvg-id="texno-24" group-title="ПОЗНАВАТЕЛЬНЫЕ",Т24
+#EXTINF:-1 tvg-id="texno-24" group-title="Познавательные",Т24
 http://dmi3y-tv.online/hls/CH_T24.m3u8
 
 #EXTINF:-1 tvg-id="ocean-tv" tvg-logo="https://iptvx.one/picons/ocean-tv.png" group-title="Познавательные" ,Ocean TV
