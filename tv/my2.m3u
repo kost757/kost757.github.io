@@ -929,6 +929,10 @@ http://185.164.82.18:9010/ykMHqK_Fox
 
 #EXTINF:-1 tvg-id="mosfilm" tvg-logo="https://iptvx.one/picons/mosfilm.png" group-title="Кино и сериалы (Российские)" ,Мосфильм. Золотая коллекция (xittv)
 https://s.xittv.net/235/index.m3u8?k=1786261348p33i75i43i5S212c57b722a54efcd1f78153c068b016
+#EXTINF:-1 tvg-id="mosfilm" tvg-logo="https://iptvx.one/picons/mosfilm.png" group-title="Кино и сериалы (Российские)" ,Мосфильм. Золотая коллекция (televizo)
+https://tvcdnpotok.com/C36gvcpVQTYoSsotZEJHug/235/1786262258/index.m3u8
+#EXTINF:-1 tvg-id="mosfilm" tvg-logo="https://iptvx.one/picons/mosfilm.png" group-title="Кино и сериалы (Российские)" ,Мосфильм. Золотая коллекция (TEST smotrettv.net)
+https://server.musical.uz/tv/mos-film_web/index.m3u8?token=14b84a717dcf8e01daf38589b17d47c159bc3f14-761302964decbbbcf3b8d61c538b62b9-1786254918-1786244118&remote=5.34.57.33
 
 #EXTINF:-1 tvg-id="mosfilm" tvg-logo="https://iptvx.one/picons/mosfilm.png" group-title="Кино и сериалы (Российские)",Мосфильм. Золотая коллекция beetv (-1)
 https://ucdn.beetv.kz/bpk-tv/000006365/tve/index.m3u8
@@ -1151,6 +1155,8 @@ https://ucdn.beetv.kz/bpk-tv/000001049/tve/index.m3u8
 
 #EXTINF:-1 tvg-id="nauka-20" tvg-logo="https://iptvx.one/picons/nauka-20.png" group-title="Познавательные" ,Наука
 https://vod.tuva.ru/nauka2/index.m3u8
+#EXTINF:-1 tvg-id="nauka-20" tvg-logo="https://iptvx.one/picons/nauka-20.png" group-title="Познавательные" ,Наука (ТЕСТ smotrettv.net)
+https://server.musical.uz/tv/nauka20_web/index.m3u8?token=b66d4396ef8e4bd278292686460ba2fc809876d4-478472f4dedc0bd8e9151718c970a33c-1786255081-1786244281&remote=5.34.57.33
 #EXTINF:-1 tvg-id="neizvestnaya-planeta" tvg-logo="https://iptvx.one/picons/neizvestnaya-planeta.png" group-title="Познавательные" ,Неизвестная Планета
 http://stitch.teletarget.ru/api/v1/hls/vintera/neplaneta/index.m3u8
 #EXTINF:-1 tvg-id="neizvestnaya-rosia" tvg-logo="https://iptvx.one/picons/neizvestnaya-rosia.png" group-title="Познавательные" ,Неизвестная Россия
