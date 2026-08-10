@@ -10,7 +10,7 @@
 
 
 #EXTM3U
-#EXTINF:-1 tvg-id="UnknownRussia.ru@SD"  group-title="ОБН.09.08.26 07:44 ,ОБН.09.08.26 07:44
+#EXTINF:-1 tvg-id="UnknownRussia.ru@SD"  group-title="ОБН.09.08.26 07:44" ,ОБН.09.08.26 07:44
 https://cdn.ntv.ru/unknown_russia/playlist.m3u8
 
 
@@ -200,8 +200,6 @@ https://cdn.ntv.ru/th_style/playlist.m3u8
 https://cdn.ntv.ru/th_hit/playlist.m3u8
 
 #EXTINF:-1 tvg-id="tcb" tvg-logo="https://iptvx.one/picons/tcb.png" group-title="Общественные" ,ТСВ
-#EXTINF:-1 tvg-id="VestiFM.ru@HD" group-title="Общественные" ,Радио Вести ФМ
-https://player.smotrim.ru/iframe/stream/live_id/0487fd79-60e6-4333-a545-909d6e015173
 #EXTINF:-1 tvg-id="VmesteRF.ru@SD" group-title="Общественные" ,Вместе РФ
 https://qcpdqumitwf.a.trbcdn.net/livemastersrt/pr4mw_lvie-vmesterf-srt.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="LenTV24.ru@SD" group-title="Общественные" ,ЛенТВ24
@@ -611,6 +609,12 @@ https://bl.rutube.ru/livestream/a11c890a0ec0730ad33bdaaf2d244e1a/index.m3u8?s=hC
 http://195.26.83.96:7009/play/89/index.m3u8
 #EXTINF:-1 tvg-id="yu" tvg-logo="https://iptvx.one/picons/yu.png" group-title="Развлекательные" ,Ю HD
 http://cdn-01.bonus-tv.ru/u/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="sochi-live" tvg-logo="https://iptvx.one/picons/sochi-live.png" group-title="Развлекательные" ,Sochi Live
+http://serv30.vintera.tv:8081/sochi/sochi_stream/playlist.m3u8
+#EXTINF:-1 tvg-id="nasha-sibir" tvg-logo="https://iptvx.one/picons/nasha-sibir.png" group-title="Развлекательные" ,Наша Сибирь
+https://stream8.cinerama.uz/1424/tracks-v1a1/mono.m3u8
+
+
 #EXTINF:-1 tvg-id="tvmchannel" tvg-logo="https://iptvx.one/picons/tvmchannel.png" group-title="Развлекательные (Местные)" ,TVM Channel
 
 #EXTINF:-1 tvg-id="vot-tv" tvg-logo="https://iptvx.one/picons/vot-tv.png" group-title="Развлекательные (Местные)" ,ВОТ ТВ
@@ -646,6 +650,7 @@ https://live-tolknews.cdnvideo.ru/tolknews/stream/playlist.m3u8
 #EXTINF:-1 tvg-id="tochka-tv" tvg-logo="https://iptvx.one/picons/tochka-tv.png" group-title="Развлекательные (Местные)" ,Точка ТВ
 
 #EXTINF:-1 tvg-id="tcb" tvg-logo="https://iptvx.one/picons/tcb.png" group-title="Развлекательные (Местные)" ,ТСВ
+
 
 
 
@@ -926,14 +931,6 @@ http://31.148.48.15:80/Mir_Seriala/index.m3u8
 
 #EXTINF:-1 tvg-id="mosfilm" tvg-logo="https://iptvx.one/picons/mosfilm.png" group-title="Кино и сериалы (Российские)" ,Мосфильм. Золотая коллекция (EU)
 http://185.164.82.18:9010/ykMHqK_Fox
-
-#EXTINF:-1 tvg-id="mosfilm" tvg-logo="https://iptvx.one/picons/mosfilm.png" group-title="Кино и сериалы (Российские)" ,Мосфильм. Золотая коллекция (xittv)
-https://s.xittv.net/235/index.m3u8?k=1786261348p33i75i43i5S212c57b722a54efcd1f78153c068b016
-#EXTINF:-1 tvg-id="mosfilm" tvg-logo="https://iptvx.one/picons/mosfilm.png" group-title="Кино и сериалы (Российские)" ,Мосфильм. Золотая коллекция (televizo)
-https://tvcdnpotok.com/C36gvcpVQTYoSsotZEJHug/235/1786262258/index.m3u8
-#EXTINF:-1 tvg-id="mosfilm" tvg-logo="https://iptvx.one/picons/mosfilm.png" group-title="Кино и сериалы (Российские)" ,Мосфильм. Золотая коллекция (TEST smotrettv.net)
-https://server.musical.uz/tv/mos-film_web/index.m3u8?token=14b84a717dcf8e01daf38589b17d47c159bc3f14-761302964decbbbcf3b8d61c538b62b9-1786254918-1786244118&remote=5.34.57.33
-
 #EXTINF:-1 tvg-id="mosfilm" tvg-logo="https://iptvx.one/picons/mosfilm.png" group-title="Кино и сериалы (Российские)",Мосфильм. Золотая коллекция beetv (-1)
 https://ucdn.beetv.kz/bpk-tv/000006365/tve/index.m3u8
 #EXTINF:-1 tvg-id="nash-kinopokaz-hd" tvg-logo="https://iptvx.one/picons/nash-kinopokaz.png" group-title="Кино и сериалы (Российские)" ,Наш кинопоказ HD
@@ -1155,8 +1152,6 @@ https://ucdn.beetv.kz/bpk-tv/000001049/tve/index.m3u8
 
 #EXTINF:-1 tvg-id="nauka-20" tvg-logo="https://iptvx.one/picons/nauka-20.png" group-title="Познавательные" ,Наука
 https://vod.tuva.ru/nauka2/index.m3u8
-#EXTINF:-1 tvg-id="nauka-20" tvg-logo="https://iptvx.one/picons/nauka-20.png" group-title="Познавательные" ,Наука (ТЕСТ smotrettv.net)
-https://server.musical.uz/tv/nauka20_web/index.m3u8?token=b66d4396ef8e4bd278292686460ba2fc809876d4-478472f4dedc0bd8e9151718c970a33c-1786255081-1786244281&remote=5.34.57.33
 #EXTINF:-1 tvg-id="neizvestnaya-planeta" tvg-logo="https://iptvx.one/picons/neizvestnaya-planeta.png" group-title="Познавательные" ,Неизвестная Планета
 http://stitch.teletarget.ru/api/v1/hls/vintera/neplaneta/index.m3u8
 #EXTINF:-1 tvg-id="neizvestnaya-rosia" tvg-logo="https://iptvx.one/picons/neizvestnaya-rosia.png" group-title="Познавательные" ,Неизвестная Россия
@@ -1545,10 +1540,7 @@ https://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_YAMREG_URAL_YNF/variant
 
 
 
-#EXTINF:-1 tvg-id="sochi-live" tvg-logo="https://iptvx.one/picons/sochi-live.png" group-title="Медитативные" ,Sochi Live
-http://serv30.vintera.tv:8081/sochi/sochi_stream/playlist.m3u8
-#EXTINF:-1 tvg-id="nasha-sibir" tvg-logo="https://iptvx.one/picons/nasha-sibir.png" group-title="Медитативные" ,Наша Сибирь
-https://stream8.cinerama.uz/1424/tracks-v1a1/mono.m3u8
+
 
 
 
@@ -1987,9 +1979,9 @@ https://ucdn.beetv.kz/bpk-tv/000002478/tve/index.m3u8
 
 
 #EXTM3U
-#EXTINF:-1 group-title="Каналы от Dmitry-tv",D-TV6
+#EXTINF:-1 group-title="Dmitry-tv",D-TV6
 http://dmitry-tv.ddns.net:8666/his/CH_D-TV6
-#EXTINF:-1 group-title="Каналы от Dmitry-tv",Dmitry-tv HD
+#EXTINF:-1 group-title="Dmitry-tv",Dmitry-tv HD
 http://dmitry-tv.ddns.net:8000/his/CH_DMITRY-TVHD
 #EXTINF:-1 group-title="Dmitry-tv",Первый канал HD
 http://dmi3y-tv.online/hls/T2/CH_1TVHD.m3u8
@@ -2507,9 +2499,9 @@ http://dmi3y-tv.online/hls/blrus/CH_CTBHD720.m3u8
 
 
 
-#EXTINF:-1 group-title="РАДИО КАНАЛЫ",[Радио] ВЕСТИ FM
+#EXTINF:-1 group-title="РАДИО КАНАЛЫ", Радио ВЕСТИ FM
 http://dmi3y-tv.online/hls/smotrim/CH_VESTI_FM.m3u8
-#EXTINF:-1 group-title="РАДИО КАНАЛЫ",[Радио] РАДИО РОССИИ
+#EXTINF:-1 group-title="РАДИО КАНАЛЫ", Радио РАДИО РОССИИ
 http://dmi3y-tv.online/hls/smotrim/CH_RADIO_ROSSII.m3u8
 
 
