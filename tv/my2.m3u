@@ -739,25 +739,26 @@ http://dmi3y-tv.online/hls/smotrim/CH_VESTI_FM.m3u8
 http://dmi3y-tv.online/hls/smotrim/CH_RADIO_ROSSII.m3u8
 
 
-#EXTINF:-1 tvg-id="kinoxit" group-title="Кино и сериалы",kinohit
+#EXTINF:-1 tvg-id="kinoxit" group-title="Кино и сериалы",кинохит
 http://158.101.222.193:88/georgia_play.php?id=kinohit
-#EXTINF:-1  tvg-id="kinokomedia" group-title="Кино и сериалы",kinokomediya
+#EXTINF:-1  tvg-id="kinokomedia" group-title="Кино и сериалы",кинокомедия
 http://158.101.222.193:88/georgia_play.php?id=kinokomediya
-#EXTINF:-1  tvg-id="kinomiks" group-title="Кино и сериалы",kinomiks
+#EXTINF:-1  tvg-id="kinomiks" group-title="Кино и сериалы",киномикс
 http://158.101.222.193:88/georgia_play.php?id=kinomiks
-#EXTINF:-1  tvg-id="kinosemiya" group-title="Кино и сериалы",kinosemya
+#EXTINF:-1  tvg-id="kinosemiya" group-title="Кино и сериалы",киносемья
 http://158.101.222.193:88/georgia_play.php?id=kinosemya
-#EXTINF:-1  tvg-id="kinoseria" group-title="Кино и сериалы",kinoseria
+#EXTINF:-1  tvg-id="kinoseria" group-title="Кино и сериалы",киносерия
 http://158.101.222.193:88/georgia_play.php?id=kinoseria
-#EXTINF:-1  tvg-id="kinosvidanie" group-title="Кино и сериалы",kinosvidanie
+#EXTINF:-1  tvg-id="kinosvidanie" group-title="Кино и сериалы",киносвидание
 http://158.101.222.193:88/georgia_play.php?id=kinosvidanie
-#EXTINF:-1  tvg-id="kinoxit" group-title="Кино и сериалы",kinosvidanie
+#EXTINF:-1  tvg-id="kinoxit" group-title="Кино и сериалы",киносвидание.
 http://5.188.159.128:8070/kinosvidanie/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы",СМОТРИМ Кино и сериалы (dmi3y-tv) 
 http://dmi3y-tv.online/hls/smotrim/CH_KINO_I_SERIALY.m3u8
 #EXTINF:-1 tvg-id="ssmotrim-100-lubov"  group-title="Кино и сериалы",СМОТРИМ 100% Любовь (dmi3y-tv) 
 http://dmi3y-tv.online/hls/smotrim/CH_LYUBOV.m3u8
-
+#EXTINF:-1 tvg-id="Kinouzhas" tvg-logo="https://i.imgur.com/mAcAAQF.png" group-title="Кино и сериалы",Киноужас (576p)
+http://stream.mcquack.net/278/index.m3u8
 
 #EXTINF:-1 tvg-id="sony-turbo" tvg-logo="https://iptvx.one/picons/sony-turbo.png" group-title="Кино и сериалы",.black
 http://158.101.222.193:88/georgia_play.php?id=black
