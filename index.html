@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kost757.github.io - Помощь сис.админам</title>
+    <style>
+        /* Базовый стиль */
+        body {
+            background-color: #3a6ea5;
+            font-family: 'Tahoma', 'MS Sans Serif', sans-serif;
+            font-size: 11px;
+            margin: 0;
+            padding: 0;
+            color: #000;
+            height: 100vh;
+            overflow: hidden;
+        }
+        
+        body:not(.has-active-window) {
+            overflow-y: auto;
+        }
+
+        /* ОКНО ПРИЛОЖЕНИЯ */
+        .window {
+            position: fixed;
+            background-color: #c0c0c0;
+            border-top: 2px solid #fff;
+            border-left: 2px solid #fff;
+            border-right: 2px solid #404040;
+            border-bottom: 2px solid #404040;
+            box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+            
+            transition: all 1.2s cubic-bezier(0.4, 0, 0.2, 1);
+            opacity: 1 !important;
+            visibility: visible;
+            z-index: 100;
+            
+            /* Нормальное состояние: большое окно по центру */
+            width: 90%;
+            max-width: 1000px;
+            height: 90vh;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Состояние: ЗАКРЫТО */
+        .window.closed {
+            opacity: 0 !important;
+            visibility: hidden;
+            transform: translate(-50%, -40%) scale(0.9);
+            pointer-events: none;
+        }
+
+        /* Состояние: СВЕРНУТО */
+        .window.minimized {
+            height: 42px !important;
+            min-height: 42px !important;
+            max-height: 42px !important;
+            width: 300px !important;
+            top: auto !important;
+            bottom: 0 !important;
+            left: 50% !important;
+            transform: translateX(-50%) translateY(0) !important;
+            overflow: hidden;
+            cursor: pointer;
+            box-shadow: 0 -2px 8px rgba(0,0,0,0.3);
+        }
+
+        .window.minimized:hover {
+            transform: translateX(-50%) translateY(-8px) !important;
+            box-shadow: 0 -4px 12px rgba(0,0,0,0.5);
+        }
+
+        /* Состояние: РАЗВЕРНУТО */
+        .window.maximized {
+            width: 98% !important;
+            max-width: 98% !important;
+            height: 96vh !important;
+            top: 2vh !important;
+            left: 1% !important;
+            transform: translate(0, 0) !important;
+        }
+
+        /* ЗАГОЛОВОК */
+        .title-bar {
+            background: linear-gradient(to right, #0054e3, #2a82f5);
+            color: white;
+            padding: 3px 5px;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            user-select: none;
+            cursor: default;
+            height: 24px;
+            box-sizing: border-box;
+            flex-shrink: 0;
+        }
+
+        .title-bar-controls button {
+            width: 16px; height: 14px;
+            background: #c0c0c0;
+            border-top: 1px solid #fff; border-left: 1px solid #fff;
+            border-right: 1px solid #000; border-bottom: 1px solid #000;
+            font-size: 9px; line-height: 10px; cursor: pointer; padding: 0;
+            margin-left: 2px;
+        }
+        .title-bar-controls button:active {
+            border-top: 1px solid #000; border-left: 1px solid #000;
+            border-right: 1px solid #fff; border-bottom: 1px solid #fff;
+        }
+
+        /* МЕНЮ */
+        .menu-bar {
+            background: #c0c0c0;
+            padding: 2px 5px;
+            border-bottom: 1px solid #808080;
+            flex-shrink: 0;
+        }
+        .menu-bar span { margin-right: 10px; cursor: pointer; }
+        .menu-bar span:hover { background-color: #0054e3; color: white; }
+
+        /* ОБЛАСТЬ КОНТЕНТА СО СКРОЛЛОМ */
+        .content-area {
+            flex-grow: 1;
+            overflow-y: auto;
+            overflow-x: hidden;
+            background: #c0c0c0;
+            padding: 15px;
+            scrollbar-width: thin;
+            scrollbar-color: #c0c0c0 #c0c0c0;
+        }
+
+        /* Webkit скроллбар под Win2k */
+        .content-area::-webkit-scrollbar { width: 17px; background: #c0c0c0; }
+        .content-area::-webkit-scrollbar-track {
+            background: repeating-linear-gradient(45deg, #c0c0c0, #c0c0c0 2px, #fff 2px, #fff 4px);
+            border-left: 1px solid #808080;
+        }
+        .content-area::-webkit-scrollbar-thumb {
+            background: #c0c0c0;
+            border-top: 1px solid #fff; border-left: 1px solid #fff;
+            border-right: 1px solid #404040; border-bottom: 1px solid #404040;
+        }
+        .content-area::-webkit-scrollbar-button {
+            background: #c0c0c0; height: 17px;
+            border-top: 1px solid #fff; border-left: 1px solid #fff;
+            border-right: 1px solid #404040; border-bottom: 1px solid #404040;
+            display: block;
+        }
+        .content-area::-webkit-scrollbar-button:single-button:vertical:decrement {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10'%3E%3Cpath d='M5 2 L9 8 L1 8 Z' fill='%23000'/%3E%3C/svg%3E");
+            background-repeat: no-repeat; background-position: center;
+        }
+        .content-area::-webkit-scrollbar-button:single-button:vertical:increment {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10'%3E%3Cpath d='M5 8 L9 2 L1 2 Z' fill='%23000'/%3E%3C/svg%3E");
+            background-repeat: no-repeat; background-position: center;
+        }
+
+        /* ОСТАЛЬНЫЕ ЭЛЕМЕНТЫ */
+        fieldset { border: 2px groove #fff; margin-bottom: 15px; padding: 10px; }
+        legend { color: #000; padding: 0 5px; font-weight: bold; }
+        ul { list-style-type: square; padding-left: 20px; margin: 5px 0; }
+        li { margin-bottom: 4px; line-height: 1.4; }
+        a { color: #0000ee; text-decoration: underline; cursor: pointer; }
+        a:visited { color: #551a8b; }
+        a:hover { color: #ff0000; background-color: #ffff00; }
+
+        img.logo { display: block; margin: 0 auto 15px auto; border: 2px inset #fff; }
+        .social-icons { text-align: center; margin: 15px 0; }
+        .social-icons img { margin: 0 3px; border: 1px solid transparent; }
+        .social-icons img:hover { border: 1px dotted #000; }
+
+        .win-btn {
+            display: inline-block; background: #c0c0c0;
+            border-top: 2px solid #fff; border-left: 2px solid #fff;
+            border-right: 2px solid #404040; border-bottom: 2px solid #404040;
+            padding: 4px 12px; margin: 2px 4px 2px 0;
+            font-family: 'Tahoma', sans-serif; font-size: 11px;
+            color: #000 !important; text-decoration: none !important;
+            cursor: pointer; vertical-align: middle; min-width: 80px; text-align: center;
+            transition: all 0.1s;
+        }
+        .win-btn:hover { background: #d4d0c8; }
+        .win-btn:active {
+            border-top: 2px solid #404040; border-left: 2px solid #404040;
+            border-right: 2px solid #fff; border-bottom: 2px solid #fff;
+            transform: translate(1px, 1px);
+        }
+
+        .status-bar {
+            border-top: 1px solid #808080; border-bottom: 1px solid #fff;
+            padding: 3px 5px; background: #c0c0c0;
+            display: flex; gap: 10px; font-size: 11px; color: #404040;
+            align-items: center; flex-shrink: 0;
+        }
+        .status-item { border: 1px inset #c0c0c0; padding: 2px 5px; flex-grow: 1; }
+        .system-tray {
+            display: flex; align-items: center; gap: 8px;
+            border-left: 1px solid #808080; border-top: 1px solid #808080;
+            border-right: 1px solid #fff; border-bottom: 1px solid #fff;
+            padding: 2px 8px; background: #c0c0c0; min-width: 180px; justify-content: flex-end;
+        }
+        .tray-icon { width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; cursor: default; }
+        .tray-text { font-size: 11px; color: #000; font-weight: normal; }
+
+        hr { border: 0; border-top: 1px solid #808080; border-bottom: 1px solid #fff; margin: 10px 0; }
+        .center-links { text-align: center; margin: 10px 0; }
+        .center-links a { margin: 0 10px; }
+        .footer-info {
+            text-align: center; margin-top: 15px; font-size: 10px; color: #404040;
+            border-top: 1px solid #808080; padding-top: 10px;
+        }
+    </style>
+</head>
+<body class="has-active-window">
+
+<div class="window" id="mainWindow">
+    <div class="title-bar">
+        <div class="title-bar-text">Kost757 - Помощь сис.админам.exe</div>
+        <div class="title-bar-controls">
+            <button onclick="minimizeWindow()" title="Свернуть">_</button>
+            <button onclick="maximizeWindow()" title="Развернуть">□</button>
+            <button onclick="closeWindow()" title="Закрыть">X</button>
+        </div>
+    </div>
+
+    <div class="menu-bar">
+        <span><u>F</u>ile</span><span><u>E</u>dit</span><span><u>V</u>iew</span><span><u>H</u>elp</span>
+    </div>
+
+    <div class="content-area">
+        <a href="https://kost757.github.io/otvertka">
+            <img class="logo" src="logo.jpg" alt="Страничка &quot;отвёртка лайф&quot;" title="Страничка &quot;отвёртка лайф&quot;" width="202" height="202">
+        </a>
+
+        <fieldset>
+            <legend>Антивирусные сканеры-утилиты</legend>
+            <ul style="list-style: none; padding: 0;">
+                <li><a class="win-btn" href="https://www.kaspersky.com/downloads/free-virus-removal-tool" target="_blank">Сканер Касперского Virus Removal Tool</a></li>
+                <li><a class="win-btn" href="soft/tdsskiller.exe" target="_blank">Утилита поиска рукитов TDSSKiller (2019)</a></li>
+                <li><a class="win-btn" href="https://free.drweb.com/download%2Bcureit/gr" target="_blank">Сканер Доктор Веб CureIt Free</a> / <a class="win-btn" href="/soft/Dr.Web_12_PortableScanner" target="_blank">Портативный Dr.Web_12_PortableScanner</a></li>
+                <li><a class="win-btn" href="/soft/esetonlinescanner.exe" target="_blank">Сканер Eset Nod32 Online Scanner</a> / <a class="win-btn" href="https://www.eset.com/int/home/online-scanner/" target="_blank">зеркало</a></li>
+                <li><a class="win-btn" href="https://www.comss.ru/page.php?id=78" target="_blank">Сканер Мcafee</a></li>
+                <li><a class="win-btn" href="http://install.avira-update.com/package/pccleanerwebloader/win32/en/avira_pc_cleaner_en.exe" target="_blank">Сканер AviraPC Cleanner</a></li>
+                <li><a class="win-btn" href="https://www.microsoft.com/ru-ru/wdsi/products/scanner" target="_blank">Сканер Microsoft Safety Scanner</a></li>
+                <li><a class="win-btn" href="soft/avz4.zip" target="_blank">Утилита AVZ 4</a></li>
+            </ul>
+        </fieldset>
+
+        <fieldset>
+            <legend>Анти-рекламные, антишпионские антивредоносные сканеры</legend>
+            <ul style="list-style: none; padding: 0;">
+                <li><a class="win-btn" href="https://ru.malwarebytes.com/mwb-download/thankyou/" target="_blank">Malwarebytes</a></li>
+                <li><a class="win-btn" href="https://ru.malwarebytes.com/adwcleaner/" target="_blank">AdwCleaner</a></li>
+                <li><a class="win-btn" href="https://www.enigmasoftware.com/ru/spyhunter-download-instructions/" target="_blank">SpyHunter</a></li>
+            </ul>
+        </fieldset>
+
+        <fieldset>
+            <legend>Программы и Утилиты</legend>
+            <p><strong>Браузеры для Windows XP:</strong></p>
+            <ul>
+                <li>MyPal: <a class="wk_ext_link" href="https://kost757.github.io/soft/mypal_.zip" target="_parent" data-external-url="https://cloud.mail.ru/public/VyYx/GRGqQHX3F">часть1</a> <a href="https://kost757.github.io/soft/mypal_.z01" target="_blank">часть2</a> <a href="https://kost757.github.io/soft/mypal_.z02" target="_blank">часть3</a> (пароль архива: otvertka)</li>
+                <li>K-MeleonPortable: <a href="/soft/K-MeleonPortable.zip">часть1</a> <a href="/soft/K-MeleonPortable.z01">часть2</a></li>
+            </ul>
+            <hr>
+            <p><strong>Системные утилиты:</strong></p>
+            <ul>
+                <li>Программа удаления программ со следами: <a href="soft/Uninstall%20Tool.zip" target="_blank">Uninstal Tool</a></li>
+                <li>Менеджер файлов (аналог Total Commander): <a href="soft/doublecmd.zip" target="_blank">Double Commander</a></li>
+                <li>Чистка реестра и мусора: <a target="_blank" href="soft/RegOrganizer.exe">RegOrganizer</a> / <a href="soft/ccPortable.zip" target="_blank">Ccleaner Часть1</a> <a href="soft/ccPortable.z01" target="_blank">Часть2</a> <a href="soft/ccPortable.z02" target="_blank">Часть3</a> / <a href="soft/Win%2010%20Tweaker.zip">Win 10 Tweaker</a></li>
+                <li>Удаление дубликатов файлов: <a href="soft/DupFilesSearchAndLink.exe" target="_blank">Duplicate Files Search And Link</a></li>
+                <li>Автозапуск: <a href="soft/Autorun%20Organizer.zip" target="_blank">Autorun Organizer</a></li>
+                <li>Архиваторы: <a href="soft/7z1900-x64.exe" target="_blank">7Zip</a> | <a href="soft/winrar-x64-561_Ru.exe" target="_blank">WinRar</a></li>
+                <li>Дефрагментация: <a href="soft/disk-defrag-setup.exe" target="_blank">Auslog Disk Defrag</a></li>
+                <li>Активаторы винды всякие: <a href="https://cloud.mail.ru/public/RG2N/y4VXeXbuQ" target="_blank">Ссылка</a></li>
+            </ul>
+        </fieldset>
+
+        <fieldset>
+            <legend>Драйверы и Удаленный доступ</legend>
+            <p><strong>SDI Tool (Snappy Driver Installer):</strong></p>
+            <ul style="list-style: none; padding: 0;">
+                <li><a class="win-btn" href="soft/SDI_R2309.zip" target="_blank">Лайт (5 мб)</a></li>
+                <li><a class="win-btn" href="https://sdi-tool.org/download/" target="_blank">Офф сайт</a></li>
+                <li><a class="win-btn" href="https://uploadrar.com/users/SamLab/3292/SamDrivers" target="_blank">SDI Lan</a></li>
+            </ul>
+            <br>
+            <p><strong>Удаленный доступ:</strong></p>
+            <ul>
+                <li>AnyDesk: <a href="/soft/AnyDesk%20%287.1.11%29.exe" target="_blank">(7.1.11)</a> / <a href="/soft/AnyDesk%20%288.0.1%29.exe" target="_blank">(8.0.1)</a> / <a href="soft/AnyDesk_9.7.14.exe" target="_blank">(9.7.14)</a></li>
+                <li>RuDesk: <a href="soft/rustdesk-1.4.9-x86_64.exe" target="_blank">1.4.9-x86_64</a></li>
+            </ul>
+        </fieldset>
+
+        <div class="social-icons">
+            <a href="/obrat.html" target="_blank"><img src="em.png" alt="Обратная связь" title="Обратная связь" width="66" height="64"></a>
+            <a href="https://vk.com/otvertka_live" target="_blank"><img src="vk.png" alt="Вконтакте" title="Страника Вконтакте" width="64" height="63"></a>
+            <a href="https://www.youtube.com/@bit64_it" target="_blank"><img src="yo.png" alt="Youtube" title="Канал на Youtube" width="64" height="68"></a>
+            <a href="https://t.me/otvertka_live" target="_blank"><img src="tg.png" alt="Telegram чат" title="Чат в Telegram" width="64" height="63"></a>
+            <a href="https://t.me/bit64_it" target="_blank"><img src="tg2.png" alt="Telegram канал" title="Канаал в Telegram" width="64" height="63"></a>
+        </div>
+
+        <div class="center-links">
+            <a href="obrat.html" target="_blank">Обратная связь</a>
+            <a href="https://kost757.github.io/otvertka" target="_parent">Страничка "Отвёртка лайф"</a>
+        </div>
+
+        <div class="footer-info">
+            © by Kost757 &nbsp;&nbsp; 11.2023 - 22.02.2026<br><br>
+            <a target="_blank" href="index_28.07.2024.html">index_28.07.2024</a> &nbsp;|&nbsp; 
+            <a href="index_24.08.2024.html" target="_blank">index_24.08.2024</a> &nbsp;|&nbsp; 
+			<a href="index_04.09.2026.html" target="_blank">index_04.09.2026</a>  
+        </div>
+    </div>
+
+    <div class="status-bar">
+        <div class="status-item">Готово</div>
+        <div class="system-tray">
+            <div class="tray-icon" title="Громкость">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="#000">
+                    <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                </svg>
+            </div>
+            <div class="tray-icon" title="Подключение к DSL Интернету">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="#000">
+                    <path d="M20 18c1.1 0 1.99-.9 1.99-2L22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2H0v2h24v-2h-4zM4 6h16v10H4V6z"/>
+                </svg>
+            </div>
+            <div class="tray-icon" title="Ошибка системы">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="#FFCC00" stroke="#000" stroke-width="1">
+                    <path d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"/>
+                </svg>
+            </div>
+            <div class="tray-text tray-icon" title="Русская раскладка">RU</div>
+            <div class="tray-text" id="clock">00:00</div>
+        </div>
+    </div>
+</div>
+
+<!-- Yandex.Metrika informer -->
+<a href="https://metrika.yandex.ru/stat/?id=95540467&amp;from=informer" target="_blank" rel="nofollow">
+    <img src="https://informer.yandex.ru/informer/95540467/3_1_FFFFFFFF_EFEFEFFF_0_uniques" style="border: 0pt none ; width: 88px; height: 31px;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" class="ym-advanced-informer" data-cid="95540467" data-lang="ru">
+</a>
+<!-- /Yandex.Metrika informer -->
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function(m,e,t,r,i,k,a){
+        m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+    })(window, document,'script','https://mc.yandex.ru/metrika/tag.js', 'ym');
+
+    ym(95540467, 'init', {trackHash:true, clickmap:true, referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/95540467" style="position: absolute; left: -9999px;" alt=""></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<script>
+    function updateClock() {
+        const now = new Date();
+        const hours = String(now.getHours()).padStart(2, '0');
+        const minutes = String(now.getMinutes()).padStart(2, '0');
+        document.getElementById('clock').textContent = hours + ':' + minutes;
+    }
+    updateClock();
+    setInterval(updateClock, 1000);
+
+    const win = document.getElementById('mainWindow');
+    const body = document.body;
+
+    function closeWindow() {
+        win.classList.add('closed');
+        win.classList.remove('minimized', 'maximized');
+        body.classList.remove('has-active-window');
+    }
+
+    function minimizeWindow() {
+        win.classList.remove('maximized', 'closed');
+        win.classList.add('minimized');
+        body.classList.remove('has-active-window');
+    }
+
+    function maximizeWindow() {
+        win.classList.remove('minimized', 'closed');
+        if (win.classList.contains('maximized')) {
+            win.classList.remove('maximized');
+        } else {
+            win.classList.add('maximized');
+        }
+        body.classList.add('has-active-window');
+    }
+
+    document.querySelector('.title-bar').addEventListener('dblclick', maximizeWindow);
+    
+    win.addEventListener('click', function(e) {
+        if (win.classList.contains('minimized') && !e.target.closest('button')) {
+            maximizeWindow();
+        }
+    });
+</script>
+
+</body>
+</html>
