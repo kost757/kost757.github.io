@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страничка "Отвертки"</title>
+    <style>
+        /* Базовый стиль Windows 2000 */
+        body {
+            background-color: #3a6ea5;
+            font-family: 'Tahoma', 'MS Sans Serif', sans-serif;
+            font-size: 11px;
+            margin: 0;
+            padding: 0;
+            color: #000;
+            height: 100vh;
+            overflow: hidden;
+        }
+        
+        body:not(.has-active-window) {
+            overflow-y: auto;
+        }
+
+        /* ОКНО ПРИЛОЖЕНИЯ */
+        .window {
+            position: fixed;
+            background-color: #c0c0c0;
+            border-top: 2px solid #fff;
+            border-left: 2px solid #fff;
+            border-right: 2px solid #404040;
+            border-bottom: 2px solid #404040;
+            box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+            
+            transition: all 1.2s cubic-bezier(0.4, 0, 0.2, 1);
+            opacity: 1 !important;
+            visibility: visible;
+            z-index: 100;
+            
+            width: 90%;
+            max-width: 1000px;
+            height: 90vh;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Состояние: ЗАКРЫТО */
+        .window.closed {
+            opacity: 0 !important;
+            visibility: hidden;
+            transform: translate(-50%, -40%) scale(0.9);
+            pointer-events: none;
+        }
+
+        /* Состояние: СВЕРНУТО */
+        .window.minimized {
+            height: 42px !important;
+            min-height: 42px !important;
+            max-height: 42px !important;
+            width: 300px !important;
+            top: auto !important;
+            bottom: 0 !important;
+            left: 50% !important;
+            transform: translateX(-50%) translateY(0) !important;
+            overflow: hidden;
+            cursor: pointer;
+            box-shadow: 0 -2px 8px rgba(0,0,0,0.3);
+        }
+
+        .window.minimized:hover {
+            transform: translateX(-50%) translateY(-8px) !important;
+            box-shadow: 0 -4px 12px rgba(0,0,0,0.5);
+        }
+
+        /* Состояние: РАЗВЕРНУТО */
+        .window.maximized {
+            width: 98% !important;
+            max-width: 98% !important;
+            height: 96vh !important;
+            top: 2vh !important;
+            left: 1% !important;
+            transform: translate(0, 0) !important;
+        }
+
+        /* ЗАГОЛОВОК */
+        .title-bar {
+            background: linear-gradient(to right, #0054e3, #2a82f5);
+            color: white;
+            padding: 3px 5px;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            user-select: none;
+            cursor: default;
+            height: 24px;
+            box-sizing: border-box;
+            flex-shrink: 0;
+        }
+
+        .title-bar-controls button {
+            width: 16px; height: 14px;
+            background: #c0c0c0;
+            border-top: 1px solid #fff; border-left: 1px solid #fff;
+            border-right: 1px solid #000; border-bottom: 1px solid #000;
+            font-size: 9px; line-height: 10px; cursor: pointer; padding: 0;
+            margin-left: 2px;
+        }
+        .title-bar-controls button:active {
+            border-top: 1px solid #000; border-left: 1px solid #000;
+            border-right: 1px solid #fff; border-bottom: 1px solid #fff;
+        }
+
+        /* МЕНЮ */
+        .menu-bar {
+            background: #c0c0c0;
+            padding: 2px 5px;
+            border-bottom: 1px solid #808080;
+            flex-shrink: 0;
+        }
+        .menu-bar span { margin-right: 10px; cursor: pointer; }
+        .menu-bar span:hover { background-color: #0054e3; color: white; }
+
+        /* ОБЛАСТЬ КОНТЕНТА СО СКРОЛЛОМ */
+        .content-area {
+            flex-grow: 1;
+            overflow-y: auto;
+            overflow-x: hidden;
+            background: #c0c0c0;
+            padding: 15px;
+            scrollbar-width: thin;
+            scrollbar-color: #c0c0c0 #c0c0c0;
+        }
+
+        /* Webkit скроллбар под Win2k */
+        .content-area::-webkit-scrollbar { width: 17px; background: #c0c0c0; }
+        .content-area::-webkit-scrollbar-track {
+            background: repeating-linear-gradient(45deg, #c0c0c0, #c0c0c0 2px, #fff 2px, #fff 4px);
+            border-left: 1px solid #808080;
+        }
+        .content-area::-webkit-scrollbar-thumb {
+            background: #c0c0c0;
+            border-top: 1px solid #fff; border-left: 1px solid #fff;
+            border-right: 1px solid #404040; border-bottom: 1px solid #404040;
+        }
+        .content-area::-webkit-scrollbar-button {
+            background: #c0c0c0; height: 17px;
+            border-top: 1px solid #fff; border-left: 1px solid #fff;
+            border-right: 1px solid #404040; border-bottom: 1px solid #404040;
+            display: block;
+        }
+        .content-area::-webkit-scrollbar-button:single-button:vertical:decrement {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10'%3E%3Cpath d='M5 2 L9 8 L1 8 Z' fill='%23000'/%3E%3C/svg%3E");
+            background-repeat: no-repeat; background-position: center;
+        }
+        .content-area::-webkit-scrollbar-button:single-button:vertical:increment {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10'%3E%3Cpath d='M5 8 L9 2 L1 2 Z' fill='%23000'/%3E%3C/svg%3E");
+            background-repeat: no-repeat; background-position: center;
+        }
+
+        /* ОСТАЛЬНЫЕ ЭЛЕМЕНТЫ */
+        fieldset { border: 2px groove #fff; margin-bottom: 15px; padding: 10px; }
+        legend { color: #000; padding: 0 5px; font-weight: bold; }
+        
+        .center-text { text-align: center; }
+        .logo-img { 
+            display: block; margin: 0 auto 15px auto; 
+            border: 2px inset #fff; 
+        }
+        
+        .channel-links img {
+            border: 2px inset #fff;
+            margin: 5px;
+            transition: border 0.2s;
+        }
+        .channel-links img:hover {
+            border: 2px outset #fff;
+        }
+        
+        a { color: #0000ee; text-decoration: underline; cursor: pointer; }
+        a:visited { color: #551a8b; }
+        a:hover { color: #ff0000; background-color: #ffff00; }
+
+        /* Кнопки Win2k для каналов */
+        .win-btn {
+            display: inline-block;
+            background: #c0c0c0;
+            border-top: 2px solid #fff;
+            border-left: 2px solid #fff;
+            border-right: 2px solid #404040;
+            border-bottom: 2px solid #404040;
+            padding: 4px 12px;
+            margin: 10px 5px 0 5px;
+            font-family: 'Tahoma', sans-serif;
+            font-size: 11px;
+            color: #000 !important;
+            text-decoration: none !important;
+            cursor: pointer;
+            vertical-align: middle;
+            min-width: 120px;
+            text-align: center;
+            transition: all 0.1s;
+        }
+        .win-btn:hover { background: #d4d0c8; }
+        .win-btn:active {
+            border-top: 2px solid #404040; border-left: 2px solid #404040;
+            border-right: 2px solid #fff; border-bottom: 2px solid #fff;
+            transform: translate(1px, 1px);
+        }
+
+        .info-block {
+            margin: 15px 0;
+            line-height: 1.6;
+        }
+        
+        .donate-section {
+            background: #d4d0c8;
+            border: 1px inset #fff;
+            padding: 10px;
+            margin: 15px 0;
+        }
+
+        hr { border: 0; border-top: 1px solid #808080; border-bottom: 1px solid #fff; margin: 10px 0; }
+        
+        .footer-info {
+            text-align: center; margin-top: 15px;
+            font-size: 10px; color: #404040;
+            border-top: 1px solid #808080; padding-top: 10px;
+        }
+
+        .status-bar {
+            border-top: 1px solid #808080; border-bottom: 1px solid #fff;
+            padding: 3px 5px; background: #c0c0c0;
+            display: flex; gap: 10px; font-size: 11px; color: #404040;
+            align-items: center; flex-shrink: 0;
+        }
+        .status-item { border: 1px inset #c0c0c0; padding: 2px 5px; flex-grow: 1; }
+        .system-tray {
+            display: flex; align-items: center; gap: 8px;
+            border-left: 1px solid #808080; border-top: 1px solid #808080;
+            border-right: 1px solid #fff; border-bottom: 1px solid #fff;
+            padding: 2px 8px; background: #c0c0c0; min-width: 180px; justify-content: flex-end;
+        }
+        .tray-icon { width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; cursor: default; }
+        .tray-text { font-size: 11px; color: #000; font-weight: normal; }
+    </style>
+</head>
+<body class="has-active-window">
+
+<div class="window" id="mainWindow">
+    <div class="title-bar">
+        <div class="title-bar-text">Отвёртка Лайф.exe</div>
+        <div class="title-bar-controls">
+            <button onclick="minimizeWindow()" title="Свернуть">_</button>
+            <button onclick="maximizeWindow()" title="Развернуть">□</button>
+            <button onclick="closeWindow()" title="Закрыть">X</button>
+        </div>
+    </div>
+
+    <div class="menu-bar">
+        <span><u>F</u>ile</span><span><u>E</u>dit</span><span><u>V</u>iew</span><span><u>H</u>elp</span>
+    </div>
+
+    <div class="content-area">
+        <!-- Логотип -->
+        <div class="center-text">
+            <img class="logo-img" src="logo.jpg" alt="Логотип Отвёртка" width="369" height="367">
+        </div>
+
+        <!-- Каналы с кнопками -->
+        <fieldset>
+            <legend>Наши каналы</legend>
+            <div class="center-text channel-links">
+                <a href="https://www.youtube.com/@user-otvertka">
+                    <img src="Screenshot_273.png" alt="Отвёртка: канал домашнего мастера" width="276" height="249">
+                </a>
+                <a href="https://www.youtube.com/@user-computeracademy">
+                    <img src="Screenshot_274.png" alt="Компьютерная академия" width="253" height="241">
+                </a>
+                <br>
+                <a class="win-btn" href="https://www.youtube.com/@user-otvertka">Отвёртка: канал домашнего мастера</a>
+                <a class="win-btn" href="https://www.youtube.com/@user-computeracademy">Компьютерная академия</a>
+            </div>
+        </fieldset>
+
+        <!-- Расписание стримов -->
+        <fieldset>
+            <legend>Расписание стримов</legend>
+            <div class="info-block">
+                <strong>Суббота в 16:45 мск (15:45 киев)</strong> на канале "Компьютерная академия"<br>
+                <em>(В летнее время на 1 час позже)</em><br><br>
+                <strong>Воскресенье 08:45 мск (7:45 киев)</strong> на канале "Отвёртка: канал домашнего мастера"
+            </div>
+        </fieldset>
+
+        <!-- Соцсети -->
+        <fieldset>
+            <legend>Сообщества и чаты</legend>
+            <div class="info-block">
+                😇 Группа подписчиков в Сообществе ВК "отвертка лайф": 
+                <a href="https://vk.com/otvertka_live">https://vk.com/otvertka_live</a> 😉<br><br>
+                Чат в Telegram: 
+                <a href="https://t.me/otvertka_live">https://t.me/otvertka_live</a><br><br>
+                Группа новостей в Telegram: 
+                <a href="https://t.me/bit64_it">https://t.me/bit64_it</a> 😉
+            </div>
+        </fieldset>
+
+        <!-- Донаты -->
+        <fieldset>
+            <legend>Поддержка проекта</legend>
+            <div class="donate-section">
+                <strong>Донаты ведущему:</strong><br>
+                 Visa OSCHADBANK: <code>4790 7299 1329 1027</code><br>
+                 Mastercard: <code>5168 7574 0269 3131</code> (можно почтой пару крафтовых фляжек)<br><br>
+                
+                <strong>Донаты модератору:</strong><br>
+                <a href="https://www.donationalerts.com/r/kost757">https://www.donationalerts.com/r/kost757</a>
+            </div>
+        </fieldset>
+
+        <!-- Контакты -->
+        <fieldset>
+            <legend>Контакты</legend>
+            <div class="info-block center-text">
+                ДЕЛОВЫЕ ПРЕДЛОЖЕНИЯ присылайте сюда:<br>
+                📧 ub5kax@gmail.com или 
+                <a href="https://kost757.github.io/obrat.html" target="_blank">Обратная связь</a>
+            </div>
+        </fieldset>
+
+        <!-- Навигация -->
+        <div class="center-text" style="margin: 20px 0;">
+            <a href="https://kost757.github.io">⬅ На главную</a>
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="https://kost757.github.io/obrat.html" target="_blank">Обратная связь </a>
+        </div>
+
+        <div class="footer-info">
+            © by Kost757
+        </div>
+    </div>
+
+    <!-- Статус бар с треем -->
+    <div class="status-bar">
+        <div class="status-item">Готово</div>
+        <div class="system-tray">
+            <div class="tray-icon" title="Громкость">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="#000">
+                    <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                </svg>
+            </div>
+            <div class="tray-icon" title="Подключение к Интернету">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="#000">
+                    <path d="M20 18c1.1 0 1.99-.9 1.99-2L22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2H0v2h24v-2h-4zM4 6h16v10H4V6z"/>
+                </svg>
+            </div>
+            <div class="tray-icon" title="Ошибка системы">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="#FFCC00" stroke="#000" stroke-width="1">
+                    <path d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"/>
+                </svg>
+            </div>
+            <div class="tray-text tray-icon" title="Русская раскладка">RU</div>
+            <div class="tray-text" id="clock">00:00</div>
+        </div>
+    </div>
+</div>
+
+<!-- Yandex.Metrika informer -->
+<a href="https://metrika.yandex.ru/stat/?id=95540476&amp;from=informer" target="_blank" rel="nofollow">
+    <img src="https://informer.yandex.ru/informer/95540476/3_0_FFFFFFFF_EFEFEFFF_0_pageviews" style="border: 0pt none ; width: 88px; height: 31px;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" class="ym-advanced-informer" data-cid="95540476" data-lang="ru">
+</a>
+<!-- /Yandex.Metrika informer -->
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function(m,e,t,r,i,k,a){
+        m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+    })(window, document,'script','https://mc.yandex.ru/metrika/tag.js', 'ym');
+
+    ym(95540476, 'init', {clickmap:true, referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/95540476" style="position: absolute; left: -9999px;" alt=""></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<!-- Скрипты управления окном -->
+<script>
+    // Часы
+    function updateClock() {
+        const now = new Date();
+        const hours = String(now.getHours()).padStart(2, '0');
+        const minutes = String(now.getMinutes()).padStart(2, '0');
+        document.getElementById('clock').textContent = hours + ':' + minutes;
+    }
+    updateClock();
+    setInterval(updateClock, 1000);
+
+    // Управление окном
+    const win = document.getElementById('mainWindow');
+    const body = document.body;
+
+    function closeWindow() {
+        win.classList.add('closed');
+        win.classList.remove('minimized', 'maximized');
+        body.classList.remove('has-active-window');
+    }
+
+    function minimizeWindow() {
+        win.classList.remove('maximized', 'closed');
+        win.classList.add('minimized');
+        body.classList.remove('has-active-window');
+    }
+
+    function maximizeWindow() {
+        win.classList.remove('minimized', 'closed');
+        if (win.classList.contains('maximized')) {
+            win.classList.remove('maximized');
+        } else {
+            win.classList.add('maximized');
+        }
+        body.classList.add('has-active-window');
+    }
+
+    document.querySelector('.title-bar').addEventListener('dblclick', maximizeWindow);
+    
+    win.addEventListener('click', function(e) {
+        if (win.classList.contains('minimized') && !e.target.closest('button')) {
+            maximizeWindow();
+        }
+    });
+</script>
+
+</body>
+</html>
