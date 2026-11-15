@@ -541,10 +541,7 @@ https://cdn4.skygo.mn/live/disk1/Friday/HLSv3-FTA/Friday.m3u8
 #EXTINF:-1 tvg-id="sts" tvg-logo="https://iptvx.one/picons/sts.png" group-title="Развлекательные" ,СТС
 #EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer"
 http://31.131.141.195:8000/play/2030/index.m3u8
-#EXTINF:-1 tvg-id="sts" group-title="Развлекательные",СТС (uplink)
-https://fs.uplink.kz/sts/mono.m3u8?token=onlinetv2
-#EXTINF:-1 tvg-id="СТС Love" group-title="Развлекательные",СТС Love(uplink)
-https://fs.uplink.kz/sts_love/mono.m3u8?token=onlinetv2
+
 
 #EXTINF:-1 tvg-id="sts" tvg-logo="https://iptvx.one/picons/sts.png" group-title="Развлекательные" ,СТС STS
 #EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer"
@@ -564,6 +561,11 @@ http://158.101.222.193:88/georgia_play.php?id=ctctv
 http://158.101.222.193:88/georgia_play.php?id=ctctv
 #EXTINF:-1 tvg-id="sts-int" tvg-logo="https://iptvx.one/picons/sts-int.png" group-title="Развлекательные",СТС International beetv
 https://ucdn.beetv.kz/bpk-tv/000000428/tve/index.m3u8
+#EXTINF:-1 tvg-id="sts" group-title="Развлекательные",СТС int. (uplink)
+https://fs.uplink.kz/sts/mono.m3u8?token=onlinetv2
+#EXTINF:-1 tvg-id="СТС Love" group-title="Развлекательные",СТС Love(uplink)
+https://fs.uplink.kz/sts_love/mono.m3u8?token=onlinetv2
+
 #EXTINF:-1 tvg-id="sarafan" tvg-logo="https://iptvx.one/picons/sarafan.png" group-title="Развлекательные" ,Сарафан
 http://31.210.208.171:8080/sarafan/index.m3u8?token=+W2MSER
 #EXTINF:-1 tvg-id="super" tvg-logo="https://iptvx.one/picons/subbota.png" group-title="Развлекательные" ,Суббота
