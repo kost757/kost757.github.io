@@ -1,0 +1,185 @@
+
+
+
+#EXTM3U url-tvg="https://iptvx.one/epg/epg_lite.xml.gz; http://gabbarit.drm-play.com/epg_1.xml.gz;  http://gabbarit.epg.one/epg_1.xml.gz; http://iptvx.one/epg/epg.xml.gz"
+
+#EXTM3U x-tvg-url="https://iptvx.one/epg/epg_lite.xml.gz; http://gabbarit.drm-play.com/epg_1.xml.gz"
+
+
+#PLAYLIST:experimental
+
+
+#EXTM3U
+#EXTINF:-1 tvg-id="UnknownRussia.ru@SD"  group-title="ОБН.21.11.26 21:37" ,ОБН.21.11.26 21:37
+https://cdn.ntv.ru/unknown_russia/playlist.m3u8
+
+
+#EXTINF:-1 tvg-id="NTVVitrina.ru@SD"  group-title="Общественные"  ,Витрина
+https://cdn.ntv.ru/vitrina/index.m3u8
+
+
+#EXTINF:-1 tvg-id="pervy"  tvg-logo="https://iptvx.one/picons/pervy.png" group-title="Общественные" ,Первый канал SD
+#EXTVLCOPT:http-referrer=https://televizor24tochka.ru/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://streaming.televizor-24-tochka.ru/live/4.m3u8
+#EXTINF:-1 tvg-id="ChannelOne.ru@Europe" tvg-logo="https://iptvx.one/picons/pervy.png"  group-title="Общественные" ,Первый канал Европа
+https://streaming.thestream.cyou/live/210.m3u8
+
+#EXTINF:-1 tvg-id="pervy" tvg-logo="https://iptvx.one/picons/pervy.png" group-title="Общественные" ,Первй канал HD
+https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
+
+#EXTINF:-1 tvg-id="rtr-planeta-eu" tvg-logo="https://i.imgur.com/0YEahxs.png" group-title="Общественные",RTR Planeta Europe [Geo-blocked]
+https://stream.smotrim.ru/hls/planeta_rtr_euro/playlist.m3u8?entity=channel&id=510&sign=5c0ac65d75140fac2fd938d77c92138d
+#EXTINF:-1 tvg-id="rtr-planeta-eu" group-title="Общественные",PLANETA RTR (EURO) (dmi3y-tv)
+http://dmi3y-tv.online/hls/smotrim/T2/CH_PLANETARTR_EURO.m3u8
+#EXTINF:-1 tvg-id="rtr-planeta-eu" group-title="Общественные",PLANETA RTR HD720 (EURO) (dmi3y-tv)
+http://dmi3y-tv.online/hls/smotrim/T2/CH_PLANETARTRHD720_EURO.m3u8
+
+#EXTINF:-1 tvg-id="rtr-planeta-amerika" tvg-logo="https://i.imgur.com/0YEahxs.png" group-title="Общественные",RTR Planeta USA [Geo-blocked]
+https://stream.smotrim.ru/hls/planeta_rtr_usa/playlist.m3u8?entity=channel&id=513&sign=3ac5d8e2db71ef7fc3d4becbff7512d8
+#EXTINF:-1 tvg-id="rtr-planeta-amerika"  group-title="Общественные",PLANETA RTR (USA) (dmi3y-tv)
+http://dmi3y-tv.online/hls/smotrim/T2/CH_PLANETARTR_USA.m3u8
+#EXTINF:-1 tvg-id="rtr-planeta-amerika"  group-title="Общественные",PLANETA RTR HD720 (USA) (dmi3y-tv)
+http://dmi3y-tv.online/hls/smotrim/T2/CH_PLANETARTRHD720_USA.m3u8
+
+
+#EXTINF:-1 tvg-id="BigAsia.ru@SD" group-title="Общественные" ,Большая Азия (720p)
+https://live-bigasia.cdnvideo.ru/bigasia/bigasia.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Rossia1" group-title="Общественные",Россия 1  (dmi3y-tv)
+http://dmi3y-tv.online/hls/smotrim/T2/CH_RUSSIA1.m3u8
+#EXTINF:-1 tvg-id="Rossia1" group-title="Общественные",Россия 1 HD  (dmi3y-tv)
+http://dmi3y-tv.online/hls/smotrim/T2/CH_RUSSIA1HD.m3u8
+
+#EXTINF:-1 tvg-id="rtr-planeta-azia"  group-title="Общественные",Россия РТР (ASIA) (dmi3y-tv)
+http://dmi3y-tv.online/hls/smotrim/T2/CH_PLANETARTR_ASIA.m3u8
+#EXTINF:-1 tvg-id="rtr-planeta-azia" group-title="Общественные",Россия РТР HD720 (ASIA) (dmi3y-tv)
+http://dmi3y-tv.online/hls/smotrim/T2/CH_PLANETARTRHD720_ASIA.m3u8
+#EXTINF:-1 group-title="Общественные",Россия РТР (СНГ)
+http://dmi3y-tv.online/hls/smotrim/T2/CH_PLANETARTR_SNG.m3u8
+#EXTINF:-1 group-title="Общественные",Россия РТР HD720 (СНГ)
+http://dmi3y-tv.online/hls/smotrim/T2/CH_PLANETARTRHD720_SNG.m3u8
+#EXTINF:-1 tvg-id="Tolk.ru@HD",Толк (720p)
+
+#EXTINF:-1 tvg-id="Rossia1" tvg-logo="https://iptvx.one/picons/rossia1.png" group-title="Общественные" ,Россия 1 SD
+#EXTVLCOPT:http-referrer=https://televizor24tochka.ru/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://streaming.televizor-24-tochka.ru/live/5.m3u8
+#EXTINF:-1 tvg-id="rossia1" tvg-logo="https://iptvx.one/picons/rossia1.png" group-title="Общественные" ,Россия 1 HD
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia1-hd/index.m3u8
+
+#EXTINF:-1 tvg-id="ntv" tvg-logo="https://iptvx.one/picons/ntv.png" group-title="Общественные" ,НТВ HD
+https://cdn.ntv.ru/ntv0/playlist.m3u8
+#EXTINF:-1 tvg-id="ntv" group-title="Общественные",НТВ HD  (dmi3y-tv)
+http://dmi3y-tv.online/hls/T2/CH_NTVHD.m3u8
+#EXTINF:-1 tvg-id="ntv" group-title="Общественные",НТВ  (dmi3y-tv)
+http://dmi3y-tv.online/hls/T2/CH_NTV.m3u8
+#EXTINF:-1 tvg-id="NTv"  tvg-logo="https://iptvx.one/picons/ntv.png"  group-title="Общественные" ,НТВ SD
+#EXTVLCOPT:http-referrer=https://televizor24tochka.ru/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://streaming.televizor-24-tochka.ru/live/7.m3u8
+#EXTINF:-1 tvg-id="NTVMir.ru@SD"  tvg-logo="https://iptvx.one/picons/ntv.png" group-title="Общественные" ,НТВ Мир
+https://streaming.thestream.cyou/live/213.m3u8
+#EXTINF:-1 tvg-id="5kanal-ru" tvg-logo="https://iptvx.one/picons/5kanal-ru.png" group-title="Общественные" ,Пятый канал
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+http://31.131.141.195:8000/play/1050/index.m3u8
+#EXTINF:-1 tvg-id="piaty-int" tvg-logo="https://iptvx.one/picons/piaty-int.png" group-title="Общественные" ,Пятый канал Int.
+#EXTINF:-1 tvg-id="piaty-int" tvg-id="Channel5.ru@SD" group-title="Общественные" ,5 Канал
+#EXTVLCOPT:http-referrer=https://televizor24tochka.ru/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://streaming.televizor-24-tochka.ru/live/8.m3u8
+
+#EXTINF:-1 tvg-id="TVCentr.ru@SD"  tvg-logo="https://iptvx.one/picons/tvcentr.png" group-title="Общественные" ,ТВ Центр
+#EXTVLCOPT:http-referrer=https://televizor24tochka.ru/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://streaming.televizor-24-tochka.ru/live/13.m3u8
+#EXTINF:-1 tvg-id="tvcentr" tvg-logo="https://iptvx.one/picons/tvcentr.png" group-title="Общественные" ,ТВ Центр
+http://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221_2.smil/playlist.m3u8
+#EXTINF:-1  tvg-id="tvcentr"   tvg-logo="https://iptvx.one/picons/tvcentr.png"  group-title="Общественные",ТВЦ  (dmi3y-tv)
+http://dmi3y-tv.online/hls/T2/CH_TVC.m3u8
+#EXTINF:-1  tvg-id="tvci" group-title="Общественные",ТВЦ International (dmi3y-tv) 
+http://dmi3y-tv.online/hls/T2/CH_TVC_INTERNATIONAL.m3u8
+
+
+
+
+#EXTINF:-1 tvg-id="piatnica" tvg-logo="https://iptvx.one/picons/piatnica.png" group-title="Развлекательные" ,Пятница!
+https://vod.tuva.ru/friday/index.m3u8
+#EXTINF:-1 tvg-id="piatnica-int" tvg-logo="https://i.imgur.com/N2z3EZC.png" group-title="Развлекательные" ,Пятница! Int.
+https://cdn4.skygo.mn/live/disk1/Friday/HLSv3-FTA/Friday.m3u8
+
+#EXTINF:-1 tvg-id="sts" tvg-logo="https://iptvx.one/picons/sts.png" group-title="Развлекательные" ,СТС
+#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer"
+http://31.131.141.195:8000/play/2030/index.m3u8
+
+
+#EXTINF:-1 tvg-id="sts" tvg-logo="https://iptvx.one/picons/sts.png" group-title="Развлекательные" ,СТС STS
+#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer"
+http://185.46.16.239:8000/STS
+
+##EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer"
+
+#EXTINF:-1 tvg-id="STS.ru@SD"group-title="Развлекательные" ,СТС.
+#EXTVLCOPT:http-referrer=https://televizor24tochka.ru/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://streaming.televizor-24-tochka.ru/live/16.m3u8
+#EXTINF:-1 tvg-id="STS.ru@SD"group-title="Развлекательные" ,СТС..
+https://streaming.televizor-24-tochka.ru/live/296.m3u8
+#EXTINF:-1 tvg-id="sts-int" tvg-logo="https://iptvx.one/picons/sts-int.png" group-title="Развлекательные" ,СТС Int.
+http://158.101.222.193:88/georgia_play.php?id=ctctv
+#EXTINF:-1 tvg-id="sts-int" tvg-logo="https://iptvx.one/picons/sts-int.png" group-title="Развлекательные" ,СТС Int.
+http://158.101.222.193:88/georgia_play.php?id=ctctv
+#EXTINF:-1 tvg-id="sts-int" tvg-logo="https://iptvx.one/picons/sts-int.png" group-title="Развлекательные",СТС International beetv
+https://ucdn.beetv.kz/bpk-tv/000000428/tve/index.m3u8
+#EXTINF:-1 tvg-id="sts" group-title="Развлекательные",СТС int. (uplink)
+https://fs.uplink.kz/sts/mono.m3u8?token=onlinetv2
+#EXTINF:-1 tvg-id="СТС Love" group-title="Развлекательные",СТС Love(uplink)
+https://fs.uplink.kz/sts_love/mono.m3u8?token=onlinetv2
+#EXTINF:-1 tvg-id="domashnie-zhivotnye" tvg-logo="http://epg.it999.ru/img2/520.png" group-title="Развлекательные" ,Домашние Животные
+https://stream8.cinerama.uz/1426/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="drive" tvg-logo="https://iptvx.one/picons/drive.png" group-title="Развлекательные" ,Драйв
+http://193.25.8.59:8000/drive
+#EXTINF:-1 tvg-id="zagorodnaya-zhizn" tvg-logo="https://iptvx.one/picons/zagorodnaya-zhizn.png" group-title="Развлекательные" ,Загородная Жизнь
+http://185.57.68.33/40/index.m3u8
+#EXTINF:-1 tvg-id="zagorodnaya-zhizn" tvg-logo="https://iptvx.one/picons/zagorodnaya-zhizn.png" group-title="Развлекательные" ,Загородная Жизнь.
+http://195.64.140.147:10180/180
+#EXTINF:-1 tvg-id="zagorodnaya-zhizn" tvg-logo="https://iptvx.one/picons/zagorodnaya-zhizn.png" group-title="Развлекательные" ,Загородная жизнь HD beetv
+https://ucdn.beetv.kz/bpk-tv/000000289/tve/index.m3u8
+
+#EXTINF:-1 tvg-id="zagorodny" tvg-logo="https://iptvx.one/picons/zagorodny.png" group-title="Развлекательные" ,Загородный
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Zagorod_TV
+#EXTINF:-1 tvg-id="usadba" tvg-logo="https://iptvx.one/picons/usadba.png" group-title="Развлекательные" ,Усадьба
+http://stream.mcquack.net/211/index.m3u8
+
+#EXTINF:-1 tvg-id="Domkino" tvg-logo="https://iptvx.one/picons/domkino.png" group-title="Кино и сериалы (Российские)" ,Дом Кино
+https://streaming.thestream.cyou/live/44.m3u8
+#EXTINF:-1 tvg-id="Domkino" tvg-logo="https://iptvx.one/picons/domkino.png" group-title="Кино и сериалы (Российские)" ,Дом Кино (dmi3y-tv) 
+http://dmi3y-tv.online/hls/CH_DOMKINO.m3u8
+
+#EXTINF:-1 tvg-id="domkino" tvg-logo="https://iptvx.one/picons/domkino.png" group-title="Кино и сериалы (Российские)" ,Дом Кино
+https://stream8.cinerama.uz/1054/tracks-v1a1/mono.m3u8
+#EXTINF:-1tvg-id="domkino" tvg-logo="https://iptvx.one/picons/domkino.png" group-title="Кино и сериалы (Российские)",Дом кино beetv
+https://ucdn.beetv.kz/bpk-tv/000000050/tve/index.m3u8
+
+#EXTINF:-1 tvg-id="kino1int-tviksel" tvg-logo="https://iptvx.one/picons/kino1int-tviksel.png" group-title="Кино и сериалы (Российские)" ,Кино 1 Int.
+http://kino-1.catcast.tv/content/38617/index.m3u8
+#EXTINF:-1 tvg-id="detkinoint-tviksel" tvg-logo="https://iptvx.one/picons/detkinoint-tviksel.png" group-title="Кино и сериалы (Российские)" ,Детское кино Int
+https://v2.catcast.tv/content/38720/index.m3u8
+
+#EXTINF:-1 tvg-id="mosfilm" tvg-logo="https://iptvx.one/picons/mosfilm.png" group-title="Кино и сериалы (Российские)" ,Мосфильм. Золотая коллекция
+http://185.121.1.163:8083/Mosfilm/index.m3u8
+#EXTINF:-1 tvg-id="mosfilm" tvg-logo="https://iptvx.one/picons/mosfilm.png" group-title="Кино и сериалы (Российские)",Мосфильм. Золотая коллекция beetv (-1)
+https://ucdn.beetv.kz/bpk-tv/000006365/tve/index.m3u8
+#EXTINF:-1  tvg-id="mosfilm" group-title="Кино и сериалы (Российские)" tvg-logo="https://iptvx.one/picons/mosfilm.png",Мосфильм. Золотая коллекция.
+http://178.134.1.158:8081/mosfilm/index.m3u8
+#EXTINF:-1  tvg-id="mosfilm" group-title="Кино и сериалы (Российские)" tvg-logo="https://iptvx.one/picons/mosfilm.png",Мосфильм. Золотая коллекция..
+http://195.64.140.147:10078/78
+#EXTINF:-1  tvg-id="mosfilm" group-title="Кино и сериалы (Российские)" tvg-logo="https://iptvx.one/picons/mosfilm.png",Мосфильм. Золотая коллекция...
+https://fs.uplink.kz/mosfilm/mono.m3u8?token=onlinetv2
+#EXTINF:-1 tvg-id="sov-kinklass-hd" tvg-logo="https://iptvx.one/picons/sov-kinklass-hd.png" group-title="Кино и сериалы (Российские)" ,Советская киноклассика
+#EXTINF:-1 tvg-id="sovkino" tvg-logo="https://iptvx.one/picons/sovkino.png" group-title="Кино и сериалы (Российские)" ,Советское кино
+http://stitch.teletarget.ru/vintera/sovietmovie/index.m3u8
+#EXTINF:-1 tvg-id="retro-tv" tvg-logo="https://iptvx.one/picons/retro-tv.png" group-title="Кино и сериалы (Российские)" ,Ретро
+http://176.118.197.101/Retro/index.m3u8
+ 
+
