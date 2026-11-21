@@ -10,7 +10,7 @@
 
 
 #EXTM3U
-#EXTINF:-1 tvg-id="UnknownRussia.ru@SD"  group-title="ОБН.11.11.26 19:31" ,ОБН.11.11.26 19:31
+#EXTINF:-1 tvg-id="UnknownRussia.ru@SD"  group-title="ОБН.21.11.26 21:44" ,ОБН.21.11.26 21:44
 https://cdn.ntv.ru/unknown_russia/playlist.m3u8
 
 
@@ -1043,7 +1043,7 @@ http://dmi3y-tv.online/hls/smotrim/CH_CLASSICA.m3u8
 http://dmi3y-tv.online/hls/CH_RUSSKIY_ROMAN.m3u8
 #EXTINF:-1 tvg-id="kino1int-tviksel" tvg-logo="https://iptvx.one/picons/kino1int-tviksel.png" group-title="Кино и сериалы (Российские)" ,Кино 1 Int.
 http://kino-1.catcast.tv/content/38617/index.m3u8
-#EXTINF:-1 tvg-id="detkinoint-tviksel" tvg-logo="https://iptvx.one/picons/detkinoint-tviksel.png" group-title="Кино и сериалы (Российские)" ,Детское кино Int
+#EXTINF:-1 tvg-id="detkinoint-tviksel" tvg-logo="https://iptvx.one/picons/detkinoint-tviksel.png" group-title="Кино и сериалы (Российские)" ,Детское кино Int.
 https://v2.catcast.tv/content/38720/index.m3u8
 #EXTINF:-1 tvg-id="kinosezon" tvg-logo="https://iptvx.one/picons/kinosezon.png" group-title="Кино и сериалы (Российские)" ,КиноСезон
 http://stitch.teletarget.ru/vintera/movieseason/index.m3u8
