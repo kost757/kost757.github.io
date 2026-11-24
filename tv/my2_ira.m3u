@@ -1,9 +1,12 @@
 
 
 
-#EXTM3U url-tvg="https://iptvx.one/epg/epg_lite.xml.gz;"
 
-#EXTM3U x-tvg-url="https://iptvx.one/epg/epg_lite.xml.gz;"
+
+
+#EXTM3U x-tvg-url="https://iptvx.one/epg/epg_lite.xml.gz; http://gabbarit.drm-play.com/epg_1.xml.gz"
+
+
 
 
 #PLAYLIST:experimental
